@@ -4,7 +4,7 @@ export default class test extends Component {
     render() {
         return (
             <div>
-                <h1>깃페이지 테스트</h1>
+                <h1>깃페이지 테스트 성공</h1>
             </div>
         )
     }
