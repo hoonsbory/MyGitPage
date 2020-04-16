@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MyGitPage/static/css/main.d1b05096.chunk.css",
-    "main.js": "/MyGitPage/static/js/main.838725f1.chunk.js",
-    "main.js.map": "/MyGitPage/static/js/main.838725f1.chunk.js.map",
+    "main.js": "/MyGitPage/static/js/main.092f14f7.chunk.js",
+    "main.js.map": "/MyGitPage/static/js/main.092f14f7.chunk.js.map",
     "runtime-main.js": "/MyGitPage/static/js/runtime-main.ea6e46b4.js",
     "runtime-main.js.map": "/MyGitPage/static/js/runtime-main.ea6e46b4.js.map",
     "static/js/2.a5333e8c.chunk.js": "/MyGitPage/static/js/2.a5333e8c.chunk.js",
     "static/js/2.a5333e8c.chunk.js.map": "/MyGitPage/static/js/2.a5333e8c.chunk.js.map",
     "index.html": "/MyGitPage/index.html",
-    "precache-manifest.6b07dadccf201ab1cd1e287746ad792a.js": "/MyGitPage/precache-manifest.6b07dadccf201ab1cd1e287746ad792a.js",
+    "precache-manifest.7561463bdeba889fcc3b00c3660b38c4.js": "/MyGitPage/precache-manifest.7561463bdeba889fcc3b00c3660b38c4.js",
     "service-worker.js": "/MyGitPage/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/MyGitPage/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.a5333e8c.chunk.js.LICENSE.txt": "/MyGitPage/static/js/2.a5333e8c.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.ea6e46b4.js",
     "static/js/2.a5333e8c.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.838725f1.chunk.js"
+    "static/js/main.092f14f7.chunk.js"
   ]
 }
