@@ -1,10 +1,17 @@
 import React, { Component } from 'react'
+import './test.css';
+
 
 export default class test extends Component {
+    state = {}
     render() {
         return (
             <div>
-                <h1>신재훈 포트폴리오</h1>
+                <section className="header">
+                    <span>aaaa</span>
+                    <span>bbbb</span>
+                    <span>cccc</span>
+                </section>
             </div>
         )
     }
