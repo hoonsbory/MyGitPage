@@ -8,9 +8,6 @@ export default class test extends Component {
         return (
             <div>
                 <section className="header">
-                    <span>aaaa</span>
-                    <span>bbbb</span>
-                    <span>cccc</span>
                 </section>
             </div>
         )
