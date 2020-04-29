@@ -1,12 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Test from './test';
+import Header from './component/header';
+import AboutMe from './component/aboutMe'
+import Project from './component/project'
+import Skills from './component/skills'
+import Contact from './component/contact';
 
 function App() {
   return (
     <div className="App">
-      <Test></Test>
+      <Header></Header>
+      <AboutMe></AboutMe>
+      <Project></Project>
+      <Skills></Skills>
+      <Contact></Contact>
     </div>
   );
 }
