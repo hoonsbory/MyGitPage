@@ -15,9 +15,9 @@ export default class header extends Component {
     
     return (
       <div className="header">
-        <section className="et-hero-tabs">
-          <h1>신재훈 포트폴리오</h1>
-          <h3>Sliding content with sticky tab nav</h3>
+        <section id="fuck" className="et-hero-tabs">
+          <h1>풀스택 개발자를 꿈꾸는 신입개발자입니다</h1>
+          <h3>FullStack Developer</h3>
           <div className="et-hero-tabs-container">
             <a className="et-hero-tab" onClick={() => window.scrollTo(0, 0)}>Home</a>
             <a className="et-hero-tab" onClick={() => document.getElementById("aboutMe").scrollIntoView()}>AboutMe</a>
