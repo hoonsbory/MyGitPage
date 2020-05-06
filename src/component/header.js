@@ -3,6 +3,12 @@ import '../css/header.css';
 
 
 export default class header extends Component {
+  componentDidMount(){
+    window.addEventListener('load',function(){
+      this.window.scrollTo(0,1);
+    },false)
+  }
+
   render(){
     document.addEventListener('scroll', function() {
       console.log(document.getElementsByClassName("et-hero-tabs")[0].scrollHeight);
