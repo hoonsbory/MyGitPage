@@ -4,9 +4,7 @@ export default class contact extends Component {
     render() {
         return (
             <div>
-                <section className="et-slide" id="contact">
-                    <h1>Other</h1>
-                    <h3>something about other</h3>
+                <section className="et-slide" id="contact" style={{marginBottom : '70px'}}>
                 </section>
             </div>
         )

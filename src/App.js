@@ -8,6 +8,7 @@ import Skills from './component/skills'
 import Contact from './component/contact';
 
 function App() {
+    
   return (
     <div className="App">
       <Header></Header>
