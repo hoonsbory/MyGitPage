@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MyGitPage/static/css/main.08296ec3.chunk.css",
-    "main.js": "/MyGitPage/static/js/main.53bd8644.chunk.js",
-    "main.js.map": "/MyGitPage/static/js/main.53bd8644.chunk.js.map",
+    "main.css": "/MyGitPage/static/css/main.18915046.chunk.css",
+    "main.js": "/MyGitPage/static/js/main.70c0be7e.chunk.js",
+    "main.js.map": "/MyGitPage/static/js/main.70c0be7e.chunk.js.map",
     "runtime-main.js": "/MyGitPage/static/js/runtime-main.32fcd9a9.js",
     "runtime-main.js.map": "/MyGitPage/static/js/runtime-main.32fcd9a9.js.map",
     "static/css/2.98661524.chunk.css": "/MyGitPage/static/css/2.98661524.chunk.css",
-    "static/js/2.cbc93c7f.chunk.js": "/MyGitPage/static/js/2.cbc93c7f.chunk.js",
-    "static/js/2.cbc93c7f.chunk.js.map": "/MyGitPage/static/js/2.cbc93c7f.chunk.js.map",
+    "static/js/2.f7752048.chunk.js": "/MyGitPage/static/js/2.f7752048.chunk.js",
+    "static/js/2.f7752048.chunk.js.map": "/MyGitPage/static/js/2.f7752048.chunk.js.map",
     "index.html": "/MyGitPage/index.html",
-    "precache-manifest.36fa97a02382887757f108baf9740c71.js": "/MyGitPage/precache-manifest.36fa97a02382887757f108baf9740c71.js",
+    "precache-manifest.425758a00e1dbc0322ca3f5b88776127.js": "/MyGitPage/precache-manifest.425758a00e1dbc0322ca3f5b88776127.js",
     "service-worker.js": "/MyGitPage/service-worker.js",
     "static/css/2.98661524.chunk.css.map": "/MyGitPage/static/css/2.98661524.chunk.css.map",
-    "static/css/main.08296ec3.chunk.css.map": "/MyGitPage/static/css/main.08296ec3.chunk.css.map",
-    "static/js/2.cbc93c7f.chunk.js.LICENSE.txt": "/MyGitPage/static/js/2.cbc93c7f.chunk.js.LICENSE.txt",
+    "static/css/main.18915046.chunk.css.map": "/MyGitPage/static/css/main.18915046.chunk.css.map",
+    "static/js/2.f7752048.chunk.js.LICENSE.txt": "/MyGitPage/static/js/2.f7752048.chunk.js.LICENSE.txt",
     "static/media/aboutMe.css": "/MyGitPage/static/media/com.36f06920.png",
     "static/media/logo.svg": "/MyGitPage/static/media/logo.5d5d9eef.svg",
     "static/media/header.css": "/MyGitPage/static/media/main.4eb6be4e.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.32fcd9a9.js",
     "static/css/2.98661524.chunk.css",
-    "static/js/2.cbc93c7f.chunk.js",
-    "static/css/main.08296ec3.chunk.css",
-    "static/js/main.53bd8644.chunk.js"
+    "static/js/2.f7752048.chunk.js",
+    "static/css/main.18915046.chunk.css",
+    "static/js/main.70c0be7e.chunk.js"
   ]
 }

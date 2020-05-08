@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "762ceb9814048de31bf69363bb68a41e",
+    "revision": "12d1bbc81a7a51c1eea5451a20dcae86",
     "url": "/MyGitPage/index.html"
   },
   {
-    "revision": "64fb49bb4ebcac0d81df",
+    "revision": "dde1c588bf65d5d8fa74",
     "url": "/MyGitPage/static/css/2.98661524.chunk.css"
   },
   {
-    "revision": "79ab9b2dafe277a57ccd",
-    "url": "/MyGitPage/static/css/main.08296ec3.chunk.css"
+    "revision": "4ab1c381da0e373cfa01",
+    "url": "/MyGitPage/static/css/main.18915046.chunk.css"
   },
   {
-    "revision": "64fb49bb4ebcac0d81df",
-    "url": "/MyGitPage/static/js/2.cbc93c7f.chunk.js"
+    "revision": "dde1c588bf65d5d8fa74",
+    "url": "/MyGitPage/static/js/2.f7752048.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/MyGitPage/static/js/2.cbc93c7f.chunk.js.LICENSE.txt"
+    "url": "/MyGitPage/static/js/2.f7752048.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "79ab9b2dafe277a57ccd",
-    "url": "/MyGitPage/static/js/main.53bd8644.chunk.js"
+    "revision": "4ab1c381da0e373cfa01",
+    "url": "/MyGitPage/static/js/main.70c0be7e.chunk.js"
   },
   {
     "revision": "a5fdf25b29b26fd64556",
