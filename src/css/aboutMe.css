@@ -5,10 +5,25 @@
     
 }
 #aboutMe{
-    height: 350px;
-    padding-top: 3%;
+    height: 450px;
+    width: 100%;
+    margin: 0 auto;
+   
 }
-
+#left{
+    width: 450px;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#right{
+    width: 50%;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    float: left;
+}
 @keyframes fadein2 {
     from {
         opacity:0;
@@ -33,27 +48,33 @@
     display: none;
     color: white;
     float: left;
-    font-size : 1.2rem;
+    font-size : 1.4rem;
     font-weight: 600;
-    width: 350px;
-    height: 300px;
-    margin-left: 20vw;
-    margin-right: 7vw;
+    width: 450px;
+    height: 400px;
     background: url(../img/com.png) !important;
     background-size : 100% 100% !important;
     background-repeat: no-repeat !important;
     position: relative;
+    margin-left: 15vw;
 
 }
 #aboutmeText{
+    margin-left: 15vw;
     display: none;
     position: relative;
     width: 100%;
     margin-right: 8vw;
     text-align: left;
+    font-size: 1.3rem;
+    word-break: keep-all;
 }
-#aboutmeText h1{
+#aboutmeText h3{
     margin : 0;
+}
+#subTitle{
+    margin-left : 4vw;
+    margin-right: 4vw;
 }
 #aboutmeText p{
     padding-right: 4vw;
@@ -68,6 +89,44 @@
         margin: auto;
     }
     #aboutmeText{
-        text-align: center;
+        margin: auto;
+        font-size : 0.8rem;
+        margin-top: 30px;
+    }
+    #aboutMe{
+        height: 400px;
+    }
+    #left{
+        width: 100%;
+        position: unset;
+        transform: unset;
+    }
+    #right{
+        position: unset;
+        transform: unset;
+        width: 100%;
+    }
+}
+@media (min-width : 768px) and (max-width : 1400px) {
+    #aboutmeCom{
+        width: 250px;
+        height: 200px;
+        font-size : 1.1rem;
+
+    }
+    #aboutmeText{
+        font-size : 1.1rem;
+
+    }
+    
+    html{
+        font-size : 16px
+    }
+    #aboutMe{
+        height: 350px;
+    }
+    #left{
+        width: 250px;
+        float: left;
     }
 }

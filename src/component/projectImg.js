@@ -1,0 +1,38 @@
+import React, { Component } from 'react'
+import Slider from "react-slick";
+
+export default class projectImg extends Component {
+    render() {
+        var name = this.props.project;
+        const settings = {
+            
+            customPaging: function(i) {
+                var count = i;
+                return (
+                  <img src={process.env.PUBLIC_URL+ `/images/${name}0${i+1}.jpg`} width="40px" height="40px" />
+              );
+            },
+            dots: true,
+            dotsClass: "slick-dots slick-thumb",
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          };
+        return (
+            <div id="projectImg">
+                <Slider {...settings}>
+                <div>
+            <img className="projectImg" src={process.env.PUBLIC_URL + "/images/"+this.props.project+"01.jpg"} />
+            </div>
+            <div>
+            <img className="projectImg" src={process.env.PUBLIC_URL + "/images/"+this.props.project+"02.jpg"} />
+            </div><div>
+            <img className="projectImg" src={process.env.PUBLIC_URL + "/images/"+this.props.project+"03.jpg"} />
+            </div>
+
+                </Slider>
+            </div>
+        )
+    }
+}
