@@ -25,6 +25,11 @@
     text-align: center;
     display: inline-block;
     width: 14%;
+    margin-bottom : 10px;
+}
+.imgDiv p{
+    margin : 0;
+    margin-bottom: 3px;
 }
 #skillSub::before{
     content: "";

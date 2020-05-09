@@ -16,6 +16,8 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    display: none;
+
 }
 #right{
     width: 50%;
@@ -23,15 +25,34 @@
     position: relative;
     transform: translateY(-50%);
     float: left;
+    display: none;
+
 }
 @keyframes fadein2 {
     from {
         opacity:0;
-        top : 5%;
+        /* transform: translateY(-40%); */
+        top : 60%;
+    }
+    to{
+        opacity: 1;
+        /* top : 50%; */
+                /* transform: translateY(-50%); */
+
+    }
+}
+@keyframes fadein3 {
+    from {
+        opacity:0;
+        /* transform: translateY(-40%); */
+        top : 10%;
     }
     to{
         opacity: 1;
         top : 0;
+        /* top : 50%; */
+                /* transform: translateY(-50%); */
+
     }
 }
 /* @-webkit-keyframes fadein2 {
@@ -45,7 +66,6 @@
     }
 } */
 #aboutmeCom{
-    display: none;
     color: white;
     float: left;
     font-size : 1.4rem;
@@ -61,12 +81,11 @@
 }
 #aboutmeText{
     margin-left: 15vw;
-    display: none;
     position: relative;
     width: 100%;
     margin-right: 8vw;
     text-align: left;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     word-break: keep-all;
 }
 #aboutmeText h3{
@@ -98,11 +117,11 @@
     }
     #left{
         width: 100%;
-        position: unset;
+        top :0;
         transform: unset;
     }
     #right{
-        position: unset;
+        top :0;
         transform: unset;
         width: 100%;
     }
@@ -115,7 +134,7 @@
 
     }
     #aboutmeText{
-        font-size : 1.1rem;
+        font-size : 0.9rem;
 
     }
     
