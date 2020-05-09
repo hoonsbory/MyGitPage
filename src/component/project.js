@@ -59,7 +59,7 @@ export default class project extends Component {
             <img className="projectImg" src={process.env.PUBLIC_URL + "/images/abstract01.jpg"}></img>
             <div id="projectText"><p><strong>프로젝트명 </strong>- 마스크팜(2인 프로젝트)</p><p><strong>제작기간 </strong>- 2020/03/01~2020/03/08</p>
               <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>Docker</span><span>Thymeleaf</span>
-                <span>JPA</span></p>
+                <span>JPA</span><span>Nginx</span></p>
               <p><strong>역할</strong>- 기획 및 개발</p>
               <p style={{ marginBottom: "0" }}><strong>설명</strong> -서버에서 받은 공공데이터를 축적 및 가공하여 공적마스크의 평균 입고
               시간을 제공하며 거리순 입고순 정렬을 통해 편리한 재고 검색이 가능하게 했습니다. <br></br>

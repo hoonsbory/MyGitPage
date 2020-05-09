@@ -1,3 +1,13 @@
+@keyframes fade{
+    from{
+        width : 20px;
+        height: 20px;
+    }
+    to{
+        width: 23px;
+        height: 23px;
+    }
+}
 .slick-dots{
     position: relative !important;
     left: 50%;
@@ -45,6 +55,8 @@
     }
 }
 .imgList{
+    animation: fade 0.5s infinite ;
+    animation-direction:alternate;
     display: inline !important;
     background-color: white;
     border: 1px solid black;
