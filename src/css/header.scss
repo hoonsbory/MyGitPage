@@ -1,0 +1,196 @@
+body {
+    font-family: "Century Gothic", 'Lato', sans-serif;
+    color : #345;
+}
+html{
+    scroll-behavior: smooth; 
+    font-size : 14px;
+    font-weight: 300;
+}
+a {
+text-decoration: none;
+}
+.titleDiv{
+    margin-left : 5vw;
+    margin-right: 5vw;
+   font-size : 0.7rem;
+   text-align: left;
+
+}
+#titleSub{
+    position: relative;
+    margin-bottom: 1em;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    &:before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        border-bottom: 1px solid #D5D5D5;
+    }
+    span{
+        position: relative;
+        display: inline-block;
+        padding-right: 1.4em;
+        background: white;
+    }
+}
+@keyframes blink {
+    from,to {
+        border-color: transparent
+    }
+    
+    50%{
+        border-color: white;
+    }
+}
+
+  @keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.mainSec{
+    background: url(../img/main.png) !important;
+    background-size : 100% 100% !important;
+    background-repeat: no-repeat !important;
+    -webkit-animation: fadein 1.5s;
+    
+
+}
+#mypic{
+    width: 100px;
+    height: 100px;
+    top : -10%;
+    position: relative;
+}
+.slide{
+    background-color: white;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom : 3%;
+}
+.mainSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2em;
+    background: url(../img/main.png) !important;
+    background-size : 100% 100% !important;
+    background-repeat: no-repeat !important;
+    -webkit-animation: fadein 1.5s;
+    h1 {
+        border-right: 0.1em solid white;
+        animation: blink 1s step-end infinite;
+        font-size: 3.6vw;
+        white-space: pre;
+        line-height: 1;
+        letter-spacing: 0.1rem;
+        color: white;
+        position: relative;
+        top : -10%;
+        margin: 0;
+    }
+}
+.mainSec-container {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    z-index: 996;
+    &--top {
+        position: fixed;
+        top : 0;
+    }
+}
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #000;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+    &:hover {
+    color:white;
+    background: darkgray;
+    transition: all 0.5s ease;
+    }
+}
+
+.tab-slider {
+position: absolute;
+bottom: 0;
+width: 0;
+height: 6px;
+background: #66B1F1;
+transition: left 0.3s ease;
+}
+
+@media (min-width: 768px) {
+/* .mainSec,
+.slide h1{
+    font-size: 3rem;
+    
+}
+.slide h3{
+font-size: 1rem;
+}
+.tab {
+    font-size: 1rem;
+} */
+.mainSec-container {
+    height: 70px;
+}
+#mypic{
+    width: 200px !important;
+    height: 200px;
+}
+html{
+    font-size : 20px
+}
+.mainSec h1 {
+    font-size : 3.2vw;
+}
+
+}

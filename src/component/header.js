@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../css/header.css';
+import '../css/header.scss';
 
 
 export default class header extends Component {
@@ -36,30 +36,31 @@ export default class header extends Component {
   render(){
 
   //   document.addEventListener('scroll', function() {
-  //     console.log(document.getElementsByClassName("et-hero-tabs")[0].scrollHeight);
-  //     if(window.scrollY>=document.getElementsByClassName("et-hero-tabs")[0].scrollHeight-document.getElementsByClassName("et-hero-tabs-container")[0].scrollHeight&&document.getElementsByClassName("et-hero-tabs-container")[0]){
-  //       document.getElementsByClassName("et-hero-tabs-container")[0].setAttribute("class","et-hero-tabs-container et-hero-tabs-container--top")
+  //     console.log(document.getElementsByClassName("mainSec")[0].scrollHeight);
+  //     if(window.scrollY>=document.getElementsByClassName("mainSec")[0].scrollHeight-document.getElementsByClassName("mainSec-container")[0].scrollHeight&&document.getElementsByClassName("mainSec-container")[0]){
+  //       document.getElementsByClassName("mainSec-container")[0].setAttribute("class","mainSec-container mainSec-container--top")
   //     }else{
-  //       document.getElementsByClassName("et-hero-tabs-container")[0].setAttribute("class","et-hero-tabs-container");
+  //       document.getElementsByClassName("mainSec-container")[0].setAttribute("class","mainSec-container");
   //     }
   // });
   
     return (
       <div className="header">
-        <section id="fuck" className="et-hero-tabs">
+        <div className="mainSec-container">
+            <a className="tab" onClick={() => window.scrollTo(0, 0)}>Home</a>
+            <a className="tab" onClick={() => document.getElementById("aboutMe").scrollIntoView()}>AboutMe</a>
+            <a className="tab" onClick={() => document.getElementById("project").scrollIntoView()}>Project</a>
+            <a className="tab" onClick={() => document.getElementById("skills").scrollIntoView()}>Skills</a>
+            <a className="tab" onClick={() => document.getElementById("contact").scrollIntoView()}>Contact</a>
+            <span className="tab-slider"></span>
+          </div>
+        <section id="fuck" className="mainSec">
           <img src={process.env.PUBLIC_URL + "/images/me.png"} id="mypic"></img>
           <br></br>
     <h1 id="title">{this.state.text}</h1>
     <br></br>
     <h1 id="title2">{this.state.text2}</h1>
-          <div className="et-hero-tabs-container">
-            <a className="et-hero-tab" onClick={() => window.scrollTo(0, 0)}>Home</a>
-            <a className="et-hero-tab" onClick={() => document.getElementById("aboutMe").scrollIntoView()}>AboutMe</a>
-            <a className="et-hero-tab" onClick={() => document.getElementById("project").scrollIntoView()}>Project</a>
-            <a className="et-hero-tab" onClick={() => document.getElementById("skills").scrollIntoView()}>Skills</a>
-            <a className="et-hero-tab" onClick={() => document.getElementById("contact").scrollIntoView()}>Contact</a>
-            <span className="et-hero-tab-slider"></span>
-          </div>
+          
         </section>
       </div>
     )

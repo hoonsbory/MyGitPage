@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
 import emailjs from "emailjs-com"
-import '../css/contact.css'
+import '../css/contact.scss'
 export default class contact extends Component {
     
     render() {
+        window.addEventListener('scroll', function () {
+            if (document.getElementById("aboutMe").scrollHeight + document.getElementById("project").scrollHeight + document.getElementById("skills").scrollHeight + 200 < this.window.scrollY) {
+              document.getElementsByClassName("contact-form")[0].style.visibility = "visible";
+              document.getElementsByClassName("contact-form")[0].style.animation = "fadein3 2s"
+      
+            }
+          })
         function sendEmail(e) {
             e.preventDefault();
             if(document.getElementById("message").value.length>600){
@@ -35,9 +42,9 @@ export default class contact extends Component {
         }
         return (
             <div>
-                <section className="et-slide" id="contact" style={{marginBottom : '70px'}}>
-                <div className="skillDiv">
-                    <h3 id="skillSub"><span style={{fontSize : "1rem"}}>Contact</span></h3>
+                <section className="slide" id="contact" style={{marginBottom : '70px'}}>
+                <div className="titleDiv">
+                    <h3 id="titleSub"><span style={{fontSize : "1rem"}}>Contact</span></h3>
                     </div>
                     <form className="contact-form" onSubmit={sendEmail}>
       <input  type="hidden" name="contact_number" />

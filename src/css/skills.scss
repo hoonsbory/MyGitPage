@@ -1,0 +1,55 @@
+#skills{
+    text-align: left;
+    background-color: white;
+    img{
+        width: 60px;
+        height: 60px;
+    }
+}
+#skillSub{
+    position: relative;
+    margin-bottom: 1em;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    &:before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        border-bottom: 1px solid #D5D5D5;
+    }
+    span{
+        position: relative;
+        display: inline-block;
+        padding-right: 1.4em;
+        background: white;
+    }
+}
+.skillDiv{
+    visibility: hidden;
+    position: relative;
+    margin-left : 5vw;
+    margin-right: 5vw;
+   font-size : 0.7rem;
+   text-align: left;
+   ul{
+    display: inline-flex !important;
+}
+}
+.imgDiv{
+    text-align: center;
+    display: inline-block;
+    width: 14%;
+    margin-bottom : 10px;
+    p{
+        margin : 0;
+        margin-bottom: 3px;
+    }
+}
+@media (max-width : 767px){
+    .imgDiv{
+        width: 33%;
+    }
+}
