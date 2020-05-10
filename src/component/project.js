@@ -27,7 +27,7 @@ export default class project extends Component {
       if (document.getElementById("aboutMe").scrollHeight + 200 < this.window.scrollY) {
 
         document.getElementsByClassName("slick-slider")[1].style.visibility = "visible";
-        document.getElementsByClassName("slick-slider")[1].style.animation = "fadein3 2s"
+        document.getElementsByClassName("slick-slider")[1].style.animation = "fadein3 1.5s"
 
       }
     })
@@ -35,7 +35,7 @@ export default class project extends Component {
     const settings = {
       customPaging: function (i) {
         return (
-          <img src={process.env.PUBLIC_URL + `/images/abstract0${i + 1}.jpg`} width="40px" height="40px" />
+          <img alt="previewImg" src={process.env.PUBLIC_URL + `/images/abstract0${i + 1}.jpg`} width="40px" height="40px" />
         );
       },
       dots: true,
@@ -55,8 +55,8 @@ export default class project extends Component {
 
         <Slider {...settings} >
           <div>
-            <img onClick={() => this.imageList("mask")} src={process.env.PUBLIC_URL + "/images/interface.png"} className="imgList"></img>
-            <img className="projectImg" src={process.env.PUBLIC_URL + "/images/abstract01.jpg"}></img>
+            <img alt="listBtnImg" onClick={() => this.imageList("mask")} src={process.env.PUBLIC_URL + "/images/interface.png"} className="imgList"></img>
+            <img alt="projectImg" className="projectImg" src={process.env.PUBLIC_URL + "/images/abstract01.jpg"}></img>
             <div id="projectText"><p><strong>프로젝트명 </strong>- 마스크팜(2인 프로젝트)</p><p><strong>제작기간 </strong>- 2020/03/01~2020/03/08</p>
               <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>Docker</span><span>Thymeleaf</span>
                 <span>JPA</span><span>Nginx</span></p>
@@ -65,13 +65,13 @@ export default class project extends Component {
               시간을 제공하며 거리순 입고순 정렬을 통해 편리한 재고 검색이 가능하게 했습니다. <br></br>
               힘든 시기에 조금이나마 도움이 되고 싶어 제작하게 되었습니다.</p>
               <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/maskMap">
-                <img src={process.env.PUBLIC_URL + "/images/github.png"}></img>
+                <img alt="githubImg" src={process.env.PUBLIC_URL + "/images/github.png"}></img>
               </a><p id="betweenP" >&</p><a href="https://mask-pharm.shop">
-                <img src={process.env.PUBLIC_URL + "/images/favicon.png"}></img></a></div>
+                <img alt="siteImg" src={process.env.PUBLIC_URL + "/images/favicon.png"}></img></a></div>
           </div>
           <div>
-            <img onClick={() => this.imageList("color")} src={process.env.PUBLIC_URL + "/images/interface.png"} className="imgList"></img>
-            <img className="projectImg" src={process.env.PUBLIC_URL + "/images/abstract02.jpg"} />
+            <img alt="listBtnImg" onClick={() => this.imageList("color")} src={process.env.PUBLIC_URL + "/images/interface.png"} className="imgList"></img>
+            <img alt="projectImg" className="projectImg" src={process.env.PUBLIC_URL + "/images/abstract02.jpg"} />
             <div id="projectText"><p><strong>프로젝트명 </strong>- 퍼스널컬러 진단(2인 프로젝트)</p><p><strong>제작기간 </strong>- 2020/03/01~2020/03/08</p>
               <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>Docker</span><span>Thymeleaf</span>
                 <span>JPA</span></p>
@@ -80,13 +80,13 @@ export default class project extends Component {
               시간을 제공하며 거리순 입고순 정렬을 통해 편리한 재고 검색이 가능하게 했습니다. <br></br>
               힘든 시기에 조금이나마 도움이 되고 싶어 제작하게 되었습니다.</p>
               <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/maskMap">
-                <img src={process.env.PUBLIC_URL + "/images/github.png"}></img>
+                <img alt="githubImg" src={process.env.PUBLIC_URL + "/images/github.png"}></img>
               </a><p id="betweenP" >&</p><a href="https://mask-pharm.shop">
-                <img src={process.env.PUBLIC_URL + "/images/favicon.png"}></img></a></div>
+                <img alt="siteImg" src={process.env.PUBLIC_URL + "/images/favicon.png"}></img></a></div>
           </div>
           <div>
-            <img onClick={() => this.imageList("dayoff")} src={process.env.PUBLIC_URL + "/images/interface.png"} className="imgList"></img>
-            <img className="projectImg" src={process.env.PUBLIC_URL + "/images/abstract03.jpg"} />
+            <img alt="listBtnImg" onClick={() => this.imageList("dayoff")} src={process.env.PUBLIC_URL + "/images/interface.png"} className="imgList"></img>
+            <img alt="projectImg" className="projectImg" src={process.env.PUBLIC_URL + "/images/abstract03.jpg"} />
             <div id="projectText"><p><strong>프로젝트명 </strong>- DayOff(5인 프로젝트)</p><p><strong>제작기간 </strong>- 2019/12/01~2020/01/10</p>
               <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>React</span><span>SpringSecurity</span>
                 <span>JPA</span><span>GCP(Storage,visionApi)</span><span>Nginx</span></p>
@@ -94,9 +94,9 @@ export default class project extends Component {
               <p style={{ marginBottom: "0" }}><strong>설명</strong> -여성의류 쇼핑몰로 최대한 많은 부분을 구현하려 했고, 차별화를 주기 위하여 인공지능 상품검색 기능을 추가하였습니다.
               </p>
               <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/dayoffProject">
-                <img src={process.env.PUBLIC_URL + "/images/github.png"}></img>
+                <img alt="githubImg" src={process.env.PUBLIC_URL + "/images/github.png"}></img>
               </a><p id="betweenP" >&</p><a href="https://jaehoon-dayoff.ml">
-                <img src={process.env.PUBLIC_URL + "/images/dayoff.png"}></img></a></div>
+                <img alt="siteImg" src={process.env.PUBLIC_URL + "/images/dayoff.png"}></img></a></div>
           </div>
         </Slider>
       </section>

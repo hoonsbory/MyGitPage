@@ -7,7 +7,7 @@ export default class contact extends Component {
         window.addEventListener('scroll', function () {
             if (document.getElementById("aboutMe").scrollHeight + document.getElementById("project").scrollHeight + document.getElementById("skills").scrollHeight + 200 < this.window.scrollY) {
               document.getElementsByClassName("contact-form")[0].style.visibility = "visible";
-              document.getElementsByClassName("contact-form")[0].style.animation = "fadein3 2s"
+              document.getElementsByClassName("contact-form")[0].style.animation = "fadein3 1.5s"
       
             }
           })

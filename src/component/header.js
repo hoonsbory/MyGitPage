@@ -17,7 +17,7 @@ export default class header extends Component {
         text : this.state.text + title[count]
       })
       count++;
-      if(count==title.length){
+      if(count===title.length){
         clearInterval(inter);
         document.getElementById("title").style.borderRight = "unset"
         var inter2 = setInterval(() => {
@@ -25,7 +25,7 @@ export default class header extends Component {
             text2 : this.state.text2 + title2[count2]
           })
           count2++;
-          if(count2==title2.length){
+          if(count2===title2.length){
             clearInterval(inter2);
           }
         }, 150);
@@ -47,15 +47,15 @@ export default class header extends Component {
     return (
       <div className="header">
         <div className="mainSec-container">
-            <a className="tab" onClick={() => window.scrollTo(0, 0)}>Home</a>
-            <a className="tab" onClick={() => document.getElementById("aboutMe").scrollIntoView()}>AboutMe</a>
-            <a className="tab" onClick={() => document.getElementById("project").scrollIntoView()}>Project</a>
-            <a className="tab" onClick={() => document.getElementById("skills").scrollIntoView()}>Skills</a>
-            <a className="tab" onClick={() => document.getElementById("contact").scrollIntoView()}>Contact</a>
+            <a href="#!" className="tab" onClick={() => window.scrollTo(0, 0)}>Home</a>
+            <a href="#!" className="tab" onClick={() => document.getElementById("aboutMe").scrollIntoView()}>AboutMe</a>
+            <a href="#!" className="tab" onClick={() => document.getElementById("project").scrollIntoView()}>Project</a>
+            <a href="#!" className="tab" onClick={() => document.getElementById("skills").scrollIntoView()}>Skills</a>
+            <a href="#!" className="tab" onClick={() => document.getElementById("contact").scrollIntoView()}>Contact</a>
             <span className="tab-slider"></span>
           </div>
-        <section id="fuck" className="mainSec">
-          <img src={process.env.PUBLIC_URL + "/images/me.png"} id="mypic"></img>
+        <section  className="mainSec">
+          <img alt="mypic" src={process.env.PUBLIC_URL + "/images/me.png"} id="mypic"></img>
           <br></br>
     <h1 id="title">{this.state.text}</h1>
     <br></br>

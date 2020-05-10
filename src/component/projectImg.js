@@ -7,9 +7,8 @@ export default class projectImg extends Component {
         const settings = {
 
             customPaging: function (i) {
-                var count = i;
                 return (
-                    <img src={process.env.PUBLIC_URL + `/images/${name}0${i + 1}.jpg`} width="40px" height="40px" />
+                    <img alt="previewImg" src={process.env.PUBLIC_URL + `/images/${name}0${i + 1}.jpg`} width="40px" height="40px" />
                 );
             },
             dots: true,
