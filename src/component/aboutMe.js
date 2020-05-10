@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import '../css/aboutMe.scss';
-import styled, { createGlobalStyle, keyframes, css } from "styled-components";
 export default class aboutMe extends Component {
     render() {
             window.addEventListener('scroll', function () {
