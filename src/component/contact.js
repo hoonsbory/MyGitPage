@@ -14,7 +14,7 @@ export default class contact extends Component {
         function sendEmail(e) {
             e.preventDefault();
             if(document.getElementById("message").value.length>600){
-                alert("글자 수가 초과되었습니다.");
+                alert("글자 수가 초과되었습니다..");
                 return;
             }
         

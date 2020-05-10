@@ -33,22 +33,20 @@
         }
     }
 }
-#projectImg .slick-slider{
-    visibility: visible;
-}
-.slick-slider{
-    visibility: hidden;
-}
 .slick-prev{
     left: 0 !important;
     z-index: 1;
+    width: 40px !important;
+    height: 40px  !important;
     &:before{
         color : black !important;
         font-size: 40px !important;
     }
 }
 .slick-next{
-    right: 20px !important;
+    width: 40px !important;
+    height: 40px  !important;
+    right: 0 !important;
     &:before{
         color : black !important;
         font-size: 40px !important;
@@ -203,12 +201,12 @@
         }
     }
 }
-    .slick-next{
-        right: 55px !important;
-    }
-    .slick-prev:before, .slick-next:before{
-        color : black !important;
-        font-size: 75px !important;
-    
+    .slick-prev, .slick-next{
+        width: 75px !important;
+        height: 75px !important;
+        &:before{
+            color : black !important;
+            font-size: 75px !important;
+        }
     }
 }

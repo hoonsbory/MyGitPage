@@ -3,18 +3,6 @@ import "../css/skills.scss"
 import BeautyStars from 'beauty-stars';
 export default class skills extends Component {
     render() {
-        window.addEventListener('scroll', function () {
-            if (document.getElementById("aboutMe").scrollHeight + document.getElementById("project").scrollHeight + 200 < this.window.scrollY) {
-                console.log(document.getElementsByClassName("skillDiv")[0]);
-              document.getElementsByClassName("skillDiv")[0].style.visibility = "visible";
-              document.getElementsByClassName("skillDiv")[0].style.animation = "fadein3 1.5s"
-              document.getElementsByClassName("skillDiv")[1].style.visibility = "visible";
-              document.getElementsByClassName("skillDiv")[1].style.animation = "fadein3 1.5s"
-              document.getElementsByClassName("skillDiv")[2].style.visibility = "visible";
-              document.getElementsByClassName("skillDiv")[2].style.animation = "fadein3 1.5s"
-      
-            }
-          })
         return (
             <section className="slide" id="skills">
                 <div className="skillDiv">

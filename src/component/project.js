@@ -23,14 +23,6 @@ export default class project extends Component {
   }
 
   render() {
-    window.addEventListener('scroll', function () {
-      if (document.getElementById("aboutMe").scrollHeight + 200 < this.window.scrollY) {
-
-        document.getElementsByClassName("slick-slider")[1].style.visibility = "visible";
-        document.getElementsByClassName("slick-slider")[1].style.animation = "fadein3 1.5s"
-
-      }
-    })
 
     const settings = {
       customPaging: function (i) {
