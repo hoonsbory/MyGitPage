@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/MyGitPage/static/css/main.fd8315a6.chunk.css",
-    "main.js": "/MyGitPage/static/js/main.a2b307f4.chunk.js",
-    "main.js.map": "/MyGitPage/static/js/main.a2b307f4.chunk.js.map",
+    "main.css": "/MyGitPage/static/css/main.8a409153.chunk.css",
+    "main.js": "/MyGitPage/static/js/main.10c27827.chunk.js",
+    "main.js.map": "/MyGitPage/static/js/main.10c27827.chunk.js.map",
     "runtime-main.js": "/MyGitPage/static/js/runtime-main.32fcd9a9.js",
     "runtime-main.js.map": "/MyGitPage/static/js/runtime-main.32fcd9a9.js.map",
     "static/css/2.98661524.chunk.css": "/MyGitPage/static/css/2.98661524.chunk.css",
-    "static/js/2.62d91966.chunk.js": "/MyGitPage/static/js/2.62d91966.chunk.js",
-    "static/js/2.62d91966.chunk.js.map": "/MyGitPage/static/js/2.62d91966.chunk.js.map",
+    "static/js/2.9519d49a.chunk.js": "/MyGitPage/static/js/2.9519d49a.chunk.js",
+    "static/js/2.9519d49a.chunk.js.map": "/MyGitPage/static/js/2.9519d49a.chunk.js.map",
     "index.html": "/MyGitPage/index.html",
-    "precache-manifest.cf954b5408b8d013cad2e14f9046e364.js": "/MyGitPage/precache-manifest.cf954b5408b8d013cad2e14f9046e364.js",
+    "precache-manifest.7c494b14b9a8f67b4d8c0fd8a9499140.js": "/MyGitPage/precache-manifest.7c494b14b9a8f67b4d8c0fd8a9499140.js",
     "service-worker.js": "/MyGitPage/service-worker.js",
     "static/css/2.98661524.chunk.css.map": "/MyGitPage/static/css/2.98661524.chunk.css.map",
-    "static/css/main.fd8315a6.chunk.css.map": "/MyGitPage/static/css/main.fd8315a6.chunk.css.map",
-    "static/js/2.62d91966.chunk.js.LICENSE.txt": "/MyGitPage/static/js/2.62d91966.chunk.js.LICENSE.txt",
+    "static/css/main.8a409153.chunk.css.map": "/MyGitPage/static/css/main.8a409153.chunk.css.map",
+    "static/js/2.9519d49a.chunk.js.LICENSE.txt": "/MyGitPage/static/js/2.9519d49a.chunk.js.LICENSE.txt",
     "static/media/aboutMe.scss": "/MyGitPage/static/media/com.36f06920.png",
-    "static/media/logo.svg": "/MyGitPage/static/media/logo.5d5d9eef.svg",
     "static/media/header.scss": "/MyGitPage/static/media/main.4eb6be4e.png",
     "static/media/slick-theme.css": "/MyGitPage/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.32fcd9a9.js",
     "static/css/2.98661524.chunk.css",
-    "static/js/2.62d91966.chunk.js",
-    "static/css/main.fd8315a6.chunk.css",
-    "static/js/main.a2b307f4.chunk.js"
+    "static/js/2.9519d49a.chunk.js",
+    "static/css/main.8a409153.chunk.css",
+    "static/js/main.10c27827.chunk.js"
   ]
 }
