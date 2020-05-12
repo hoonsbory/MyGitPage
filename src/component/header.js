@@ -55,7 +55,7 @@ export default class header extends Component {
             <span className="tab-slider"></span>
           </div>
         <section  className="mainSec">
-          <img alt="mypic" src={process.env.PUBLIC_URL + "/images/me.png"} id="mypic"></img>
+          <img alt="mypic" src={process.env.PUBLIC_URL + "/images/me3.png"} id="mypic"></img>
           <br></br>
     <h1 id="title">{this.state.text}</h1>
     <br></br>
