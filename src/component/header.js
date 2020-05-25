@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import '../css/header.scss';
 
-
 export default class header extends Component {
   state = {
     text : "",

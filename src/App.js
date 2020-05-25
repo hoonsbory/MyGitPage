@@ -6,6 +6,7 @@ import Project from './component/project'
 import Skills from './component/skills'
 import Contact from './component/contact';
 
+
 function App() {
   function boxClick(){
     document.getElementById("opacityBox").style.display = "none";

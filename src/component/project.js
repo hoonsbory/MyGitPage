@@ -62,18 +62,15 @@ export default class project extends Component {
                 <img alt="siteImg" src={process.env.PUBLIC_URL + "/images/favicon.png"}></img></a></div>
           </div>
           <div>
-            <img alt="listBtnImg" onClick={() => this.imageList("color")} src={process.env.PUBLIC_URL + "/images/interface.png"} className="imgList"></img>
+            <img alt="listBtnImg" onClick={() => this.imageList("personalColor")} src={process.env.PUBLIC_URL + "/images/interface.png"} className="imgList"></img>
             <img alt="projectImg" className="projectImg" src={process.env.PUBLIC_URL + "/images/abstract02.jpg"} />
             <div id="projectText"><p><strong>프로젝트명 </strong>- 퍼스널컬러 진단(2인 프로젝트)</p><p><strong>제작기간 </strong>- 2020/03/01~2020/03/08</p>
-              <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>Docker</span><span>Thymeleaf</span>
-                <span>JPA</span></p>
+              <p><strong>사용기술 </strong>- <span>React</span><span>AWS S3</span><span>CloudFront</span><span>Travis CI</span></p>
               <p><strong>역할</strong>- 기획 및 개발</p>
-              <p style={{ marginBottom: "0" }}><strong>설명</strong> -서버에서 받은 공공데이터를 축적 및 가공하여 공적마스크의 평균 입고
-              시간을 제공하며 거리순 입고순 정렬을 통해 편리한 재고 검색이 가능하게 했습니다. <br></br>
-              힘든 시기에 조금이나마 도움이 되고 싶어 제작하게 되었습니다.</p>
-              <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/maskMap">
+              <p style={{ marginBottom: "0" }}><strong>설명</strong> -편집툴을 만들어 피부 색상을 추출하여 퍼스널컬러를 알려주는 웹사이트입니다. </p>
+              <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/myPersonalColor">
                 <img alt="githubImg" src={process.env.PUBLIC_URL + "/images/github.png"}></img>
-              </a><p id="betweenP" >&</p><a href="https://mask-pharm.shop">
+              </a><p id="betweenP" >&</p><a href="http://jaehoon-dayoff.ml.s3-website.ap-northeast-2.amazonaws.com/personalColor">
                 <img alt="siteImg" src={process.env.PUBLIC_URL + "/images/favicon.png"}></img></a></div>
           </div>
           <div>
