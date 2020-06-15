@@ -38,6 +38,16 @@ export default class skills extends Component {
                             inactiveColor={"gray"}
                         />
                     </div>
+                    <div className="imgDiv">
+                        <img alt="skillImg" src={process.env.PUBLIC_URL + "/images/nginx.png"}></img>
+                        <p>Nginx</p>
+                        <BeautyStars
+                            value={2}
+                            size={"10px"}
+                            gap={"5px"}
+                            inactiveColor={"gray"}
+                        />
+                    </div>
                 </div>
                 <div className="skillDiv">
                     <h3 id="skillSub"><span>Front-end</span></h3>

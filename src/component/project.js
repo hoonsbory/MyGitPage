@@ -68,7 +68,7 @@ export default class project extends Component {
               <p><strong>사용기술 </strong>- <span>React</span><span>AWS S3</span><span>CloudFront</span><span>Travis CI</span></p>
               <p><strong>역할</strong>- 기획 및 개발</p>
               <p style={{ marginBottom: "0" }}><strong>설명</strong> -편집툴을 만들어 피부 색상을 추출하여 퍼스널컬러를 알려주는 웹사이트입니다. </p>
-              <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/myPersonalColor">
+              <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/simkong">
                 <img alt="githubImg" src={process.env.PUBLIC_URL + "/images/github.png"}></img>
               </a><p id="betweenP" >&</p><a href="https://mycolor.kr">
                 <img alt="siteImg" src={process.env.PUBLIC_URL + "/images/mycolor.png"}></img></a></div>
