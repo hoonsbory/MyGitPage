@@ -27,7 +27,7 @@ export default class project extends Component {
     const settings = {
       customPaging: function (i) {
         return (
-          <img alt="previewImg" src={`/images/abstract0${i + 1}.jpg`} width="40px" height="40px" />
+          <img alt="previewImg" src={`/MyGitPage/images/abstract0${i + 1}.jpg`} width="40px" height="40px" />
         );
       },
       dots: true,
@@ -47,8 +47,8 @@ export default class project extends Component {
 
         <Slider {...settings} >
           <div>
-            <img alt="listBtnImg" onClick={() => this.imageList("mask")} src={"/images/interface.png"} className="imgList"></img>
-            <img alt="projectImg" className="projectImg" src={"/images/abstract01.jpg"}></img>
+            <img alt="listBtnImg" onClick={() => this.imageList("mask")} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
+            <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract01.jpg"}></img>
             <div id="projectText"><p><strong>프로젝트명 </strong>- 마스크팜(2인 프로젝트)</p><p><strong>제작기간 </strong>- 2020/03/01~2020/03/08</p>
               <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>Docker</span><span>Thymeleaf</span>
                 <span>JPA</span><span>Nginx</span></p>
@@ -57,25 +57,25 @@ export default class project extends Component {
               시간을 제공하며 거리순 입고순 정렬을 통해 편리한 재고 검색이 가능하게 했습니다. <br></br>
               힘든 시기에 조금이나마 도움이 되고 싶어 제작하게 되었습니다.</p>
               <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/maskMap">
-                <img alt="githubImg" src={"/images/github.png"}></img>
+                <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
               </a><p id="betweenP" >&</p><a href="https://mask-pharm.shop">
-                <img alt="siteImg" src={"/images/favicon.png"}></img></a></div>
+                <img alt="siteImg" src={"/MyGitPage/images/favicon.png"}></img></a></div>
           </div>
           <div>
-            <img alt="listBtnImg" onClick={() => this.imageList("personalColor")} src={"/images/interface.png"} className="imgList"></img>
-            <img alt="projectImg" className="projectImg" src={"/images/abstract02.jpg"} />
+            <img alt="listBtnImg" onClick={() => this.imageList("personalColor")} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
+            <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract02.jpg"} />
             <div id="projectText"><p><strong>프로젝트명 </strong>- 퍼스널컬러 진단(2인 프로젝트)</p><p><strong>제작기간 </strong>- 2020/05/01~2020/06/01</p>
               <p><strong>사용기술 </strong>- <span>React</span><span>AWS S3</span><span>CloudFront</span><span>Travis CI</span></p>
               <p><strong>역할</strong>- 기획 및 전체개발</p>
               <p style={{ marginBottom: "0" }}><strong>설명</strong> -비디오태그의 스트림을 이용해 유저의 피부를 캡쳐 및 분석하여 퍼스널컬러를 알려주는 웹사이트입니다. <br/> 스트림을 지원하지 않는 브라우저는 input으로 사진을 업로드 하게 하였고 피부를 정확히 특정하기 위해 크롭툴을 만들었습니다.</p>
               <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/simkong">
-                <img alt="githubImg" src={"/images/github.png"}></img>
+                <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
               </a><p id="betweenP" >&</p><a href="https://mycolor.kr">
-                <img alt="siteImg" src={"/images/mycolor.png"}></img></a></div>
+                <img alt="siteImg" src={"/MyGitPage/images/mycolor.png"}></img></a></div>
           </div>
           <div>
-            <img alt="listBtnImg" onClick={() => this.imageList("dayoff")} src={"/images/interface.png"} className="imgList"></img>
-            <img alt="projectImg" className="projectImg" src={"/images/abstract03.jpg"} />
+            <img alt="listBtnImg" onClick={() => this.imageList("dayoff")} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
+            <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract03.jpg"} />
             <div id="projectText"><p><strong>프로젝트명 </strong>- DayOff(5인 프로젝트)</p><p><strong>제작기간 </strong>- 2019/12/01~2020/01/10</p>
               <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>React</span><span>SpringSecurity</span>
                 <span>JPA</span><span>GCP(Storage,visionApi)</span><span>Nginx</span></p>
@@ -83,9 +83,9 @@ export default class project extends Component {
               <p style={{ marginBottom: "0" }}><strong>설명</strong> -여성의류 쇼핑몰로 최대한 많은 부분을 구현하려 했고, 차별화를 주기 위하여 인공지능 상품검색 기능을 추가하였습니다.
               </p>
               <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/dayoffProject">
-                <img alt="githubImg" src={"/images/github.png"}></img>
+                <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
               </a><p id="betweenP" >&</p><a href="https://jaehoon-dayoff.ml">
-                <img alt="siteImg" src={"/images/dayoff.png"}></img></a></div>
+                <img alt="siteImg" src={"/MyGitPage/images/dayoff.png"}></img></a></div>
           </div>
         </Slider>
       </section>

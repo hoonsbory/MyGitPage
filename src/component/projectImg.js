@@ -8,7 +8,7 @@ export default class projectImg extends Component {
 
             customPaging: function (i) {
                 return (
-                    <img alt="previewImg" src={`/images/${name}0${i + 1}.jpg`} width="40px" height="40px" />
+                    <img alt="previewImg" src={`/MyGitPage/images/${name}0${i + 1}.jpg`} width="40px" height="40px" />
                 );
             },
             dots: true,
@@ -23,13 +23,13 @@ export default class projectImg extends Component {
             <div id="projectImg">
                 <Slider {...settings}>
                     <div>
-                        <img alt="projectImg" className="projectImg" src={"/images/" + this.props.project + "01.jpg"} />
+                        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + this.props.project + "01.jpg"} />
                     </div>
                     <div>
-                        <img alt="projectImg" className="projectImg" src={"/images/" + this.props.project + "02.jpg"} />
+                        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + this.props.project + "02.jpg"} />
                     </div>
                     <div>
-                        <img alt="projectImg" className="projectImg" src={"/images/" + this.props.project + "03.jpg"} />
+                        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + this.props.project + "03.jpg"} />
 
                     </div>
                 </Slider>

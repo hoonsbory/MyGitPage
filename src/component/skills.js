@@ -9,7 +9,7 @@ export default class skills extends Component {
                     <h1>Skills</h1>
                     <h3 id="skillSub"><span>Back-end</span></h3>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/java.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/java.png"}></img>
                         <p>JAVA</p>
                         <BeautyStars
                             value={3}
@@ -19,7 +19,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/jpa.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/jpa.png"}></img>
                         <p>JPA</p>
                         <BeautyStars
                             value={2}
@@ -29,7 +29,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/spring.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/spring.png"}></img>
                         <p>SpringBoot</p>
                         <BeautyStars
                             value={3}
@@ -39,7 +39,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/nginx.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/nginx.png"}></img>
                         <p>Nginx</p>
                         <BeautyStars
                             value={2}
@@ -52,7 +52,7 @@ export default class skills extends Component {
                 <div className="skillDiv">
                     <h3 id="skillSub"><span>Front-end</span></h3>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/css.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/css.png"}></img>
                         <p>CSS</p>
                         <BeautyStars
                             value={2}
@@ -62,7 +62,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/html5.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/html5.png"}></img>
                         <p>html</p>
                         <BeautyStars
                             value={3}
@@ -72,7 +72,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/react.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/react.png"}></img>
                         <p>React</p>
                         <BeautyStars
                             value={2}
@@ -82,7 +82,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/js.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/js.png"}></img>
                         <p>JavaScript</p>
                         <BeautyStars
                             value={3}
@@ -92,7 +92,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/jquery.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/jquery.png"}></img>
                         <p>JQuery</p>
                         <BeautyStars
                             value={2}
@@ -105,7 +105,7 @@ export default class skills extends Component {
                 <div className="skillDiv">
                     <h3 id="skillSub"><span>ETC(DB,Tool...)</span></h3>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/vscode.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/vscode.png"}></img>
                         <p>VScode</p>
                         <BeautyStars
                             value={3}
@@ -115,7 +115,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/travis.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/travis.png"}></img>
                         <p>travis</p>
                         <BeautyStars
                             value={2}
@@ -125,7 +125,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/docker.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/docker.png"}></img>
                         <p>Docker</p>
                         <BeautyStars
                             value={2}
@@ -135,7 +135,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/github.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/github.png"}></img>
                         <p>Github</p>
                         <BeautyStars
                             value={3}
@@ -145,7 +145,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/mysql.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/mysql.png"}></img>
                         <p>MySql</p>
                         <BeautyStars
                             value={3}
@@ -155,7 +155,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/aws.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/aws.png"}></img>
                         <p>AWS</p>
                         <BeautyStars
                             value={2}
@@ -165,7 +165,7 @@ export default class skills extends Component {
                         />
                     </div>
                     <div className="imgDiv">
-                        <img alt="skillImg" src={"/images/gcp.png"}></img>
+                        <img alt="skillImg" src={"/MyGitPage/images/gcp.png"}></img>
                         <p>GCP</p>
                         <BeautyStars
                             value={2}
