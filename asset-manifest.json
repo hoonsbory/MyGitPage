@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/MyGitPage/static/css/main.5252815b.chunk.css",
-    "main.js": "/MyGitPage/static/js/main.bd21d075.chunk.js",
-    "main.js.map": "/MyGitPage/static/js/main.bd21d075.chunk.js.map",
-    "runtime-main.js": "/MyGitPage/static/js/runtime-main.32fcd9a9.js",
-    "runtime-main.js.map": "/MyGitPage/static/js/runtime-main.32fcd9a9.js.map",
+    "main.css": "/MyGitPage/static/css/main.667327e4.chunk.css",
+    "main.js": "/MyGitPage/static/js/main.55054661.chunk.js",
+    "main.js.map": "/MyGitPage/static/js/main.55054661.chunk.js.map",
+    "runtime-main.js": "/MyGitPage/static/js/runtime-main.000fcba0.js",
+    "runtime-main.js.map": "/MyGitPage/static/js/runtime-main.000fcba0.js.map",
     "static/css/2.98661524.chunk.css": "/MyGitPage/static/css/2.98661524.chunk.css",
-    "static/js/2.9519d49a.chunk.js": "/MyGitPage/static/js/2.9519d49a.chunk.js",
-    "static/js/2.9519d49a.chunk.js.map": "/MyGitPage/static/js/2.9519d49a.chunk.js.map",
+    "static/js/2.5c90d821.chunk.js": "/MyGitPage/static/js/2.5c90d821.chunk.js",
+    "static/js/2.5c90d821.chunk.js.map": "/MyGitPage/static/js/2.5c90d821.chunk.js.map",
     "index.html": "/MyGitPage/index.html",
-    "precache-manifest.ebe69299d401a8cafbbe33ec1588521d.js": "/MyGitPage/precache-manifest.ebe69299d401a8cafbbe33ec1588521d.js",
+    "precache-manifest.3fd59b023e6d5b3ff222e8e3d9b35922.js": "/MyGitPage/precache-manifest.3fd59b023e6d5b3ff222e8e3d9b35922.js",
     "service-worker.js": "/MyGitPage/service-worker.js",
     "static/css/2.98661524.chunk.css.map": "/MyGitPage/static/css/2.98661524.chunk.css.map",
-    "static/css/main.5252815b.chunk.css.map": "/MyGitPage/static/css/main.5252815b.chunk.css.map",
-    "static/js/2.9519d49a.chunk.js.LICENSE.txt": "/MyGitPage/static/js/2.9519d49a.chunk.js.LICENSE.txt",
-    "static/media/header.scss": "/MyGitPage/static/media/main.c25ee77d.png",
+    "static/css/main.667327e4.chunk.css.map": "/MyGitPage/static/css/main.667327e4.chunk.css.map",
+    "static/js/2.5c90d821.chunk.js.LICENSE.txt": "/MyGitPage/static/js/2.5c90d821.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/MyGitPage/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.32fcd9a9.js",
+    "static/js/runtime-main.000fcba0.js",
     "static/css/2.98661524.chunk.css",
-    "static/js/2.9519d49a.chunk.js",
-    "static/css/main.5252815b.chunk.css",
-    "static/js/main.bd21d075.chunk.js"
+    "static/js/2.5c90d821.chunk.js",
+    "static/css/main.667327e4.chunk.css",
+    "static/js/main.55054661.chunk.js"
   ]
 }
