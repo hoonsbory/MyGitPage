@@ -34,7 +34,7 @@ export default class aboutMe extends Component {
                         <p><strong>코드 그 이상의 가치</strong>를 공유할 수 있는 개발자가 되어 선한 영향력을 끼치고 싶습니다.</p>
                     </div>
                 </div>
-                {/* <img src={"MyGitPage/images/com.png"} width="300vw" height="200vh"></img> */}
+                {/* <img src={"/images/com.png"} width="300vw" height="200vh"></img> */}
             </section>
         )
     }
