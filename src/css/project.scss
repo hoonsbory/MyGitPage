@@ -80,15 +80,7 @@
     border-radius: 10px;
     display: inline !important;
 }
-
-#projectText{
-    display: inline-block;
-    text-align: left;
-    padding-left: 3%;
-    vertical-align: top;
-    max-width: 42%;
-    margin-bottom: 20px;
-    span{
+.stackSpan span{
         background-color: black;
         color: white;
         border-radius: 10px;
@@ -99,7 +91,15 @@
         padding-right: 4px;
         opacity: .75;
         margin-bottom : 5px;
-    }
+}
+#projectText{
+    display: inline-block;
+    text-align: left;
+    padding-left: 3%;
+    vertical-align: top;
+    max-width: 42%;
+    margin-bottom: 20px;
+    
     p{
         margin-right: 10px;
     }
@@ -112,11 +112,16 @@
     }
 }
 #betweenP{
-    margin-right: 2px !important;
-    margin-left: 2px !important;
-    font-weight: 600;
-    font-size: 15px;
+    
     display: inline !important;
+    p{
+        margin : 0;
+        margin-right: 2px !important;
+        margin-left: 2px !important;
+        font-weight: 600;
+        font-size: 15px;
+        display: inline;
+    }
 }
 #close{
     font-family: 'Nunito', sans-serif;
