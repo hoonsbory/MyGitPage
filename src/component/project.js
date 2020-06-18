@@ -90,7 +90,7 @@ const Project = () => {
           <p><strong>역할</strong>- 게시글 등록, 본인페이지,타유저페이지, DB설계, 좋아요 팔로우 내역, 팔로우 및 팔로워 리스트, 사용자검색,로그인 CSS</p>
           <p style={{ marginBottom: "0" }}><strong>설명</strong> -학원에서 처음 JDBC와 JSP,AJAX를 배웠을 당시 진행한 미니 프로젝트로 인스타그램을 클론했습니다.
           </p>
-          <p style={{ display: "inline" }}><strong>깃허브 </strong> -</p><a href="https://github.com/hoonsbory/InstaClone_team">
+          <p style={{ display: "inline" }}><strong>깃허브 </strong> -</p><a href="https://github.com/hoonsbory/instaProject">
             <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
           </a></div>
       </div>
