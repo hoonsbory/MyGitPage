@@ -26,6 +26,7 @@ const Skills = () => {
 
                     <SkillList skillName="React" star="2" skillImg="react.png" />
 
+                    <SkillList skillName="JavsScript" star="2" skillImg="js.png" />
 
                     <SkillList skillName="JQuery" star="2" skillImg="jquery.png" />
                 </div>
