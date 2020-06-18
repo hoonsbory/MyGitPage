@@ -1,14 +1,12 @@
-import React, { Component } from 'react'
 import Slider from "react-slick";
+import React from 'react'
 
-export default class projectImg extends Component {
-    render() {
-        var name = this.props.project;
+const ProjectImg = ({project}) =>  {
         const settings = {
 
             customPaging: function (i) {
                 return (
-                    <img alt="previewImg" src={`/MyGitPage/images/${name}0${i + 1}.jpg`} width="40px" height="40px" />
+                    <img alt="previewImg" src={`/MyGitPage/images/${project}0${i + 1}.jpg`} width="40px" height="40px" />
                 );
             },
             dots: true,
@@ -18,22 +16,23 @@ export default class projectImg extends Component {
             slidesToShow: 1,
             slidesToScroll: 1
         };
-
-        return (
-            <div id="projectImg">
+    return (
+        <div id="projectImg">
                 <Slider {...settings}>
                     <div>
-                        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + this.props.project + "01.jpg"} />
+                        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + project + "01.jpg"} />
                     </div>
                     <div>
-                        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + this.props.project + "02.jpg"} />
+                        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + project + "02.jpg"} />
                     </div>
                     <div>
-                        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + this.props.project + "03.jpg"} />
+                        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + project + "03.jpg"} />
 
                     </div>
                 </Slider>
             </div>
-        )
-    }
+    )
 }
+export default ProjectImg
+
+

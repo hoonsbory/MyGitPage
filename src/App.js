@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Header from './component/header';
-import AboutMe from './component/aboutMe'
-import Project from './component/project'
-import Skills from './component/skills'
-import Contact from './component/contact';
+import Header from './component/Header';
+import AboutMe from './component/AboutMe'
+import Project from './component/Project'
+import Skills from './component/Skills'
+import Contact from './component/Contact';
 
 
 function App() {
+  window.scrollTo(0,0)
   function boxClick(){
     document.getElementById("opacityBox").style.display = "none";
     document.getElementById("projectImg").style.display = "none";
@@ -15,7 +16,6 @@ function App() {
     document.getElementsByClassName("mainSlide")[0].getElementsByClassName("slick-arrow")[0].style.display = "block";
       document.getElementsByClassName("mainSlide")[0].getElementsByClassName("slick-arrow")[1].style.display = "block";
   }
-    
   return (
     <div className="App">
       <div id="opacityBox" onClick={()=> boxClick()}> </div>

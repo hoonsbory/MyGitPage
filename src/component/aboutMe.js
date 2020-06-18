@@ -1,25 +1,24 @@
-import React, { Component } from 'react'
+import React from 'react'
 import '../css/aboutMe.scss';
-export default class aboutMe extends Component {
-    render() {
-            window.addEventListener('scroll', function () {
-                if (this.document.getElementById('aboutMe').clientHeight / 1.7 < this.window.scrollY) {
-                    console.log(window.innerWidth);
-                    if (this.window.innerWidth < 768) {
-                        this.document.getElementById("left").style.visibility = "visible";
-                        this.document.getElementById("left").style.animation = "fadein3 1.5s"
-                        this.document.getElementById("right").style.visibility = "visible";
-                        this.document.getElementById("right").style.animation = "fadein3 1.5s"
-                    } else {
-                        this.document.getElementById("left").style.visibility = "visible";
-                        this.document.getElementById("left").style.animation = "fadein2 1.5s"
-                        this.document.getElementById("right").style.visibility = "visible";
-                        this.document.getElementById("right").style.animation = "fadein2 1.5s"
-                    }
-                }
-            })
-        return (
-            <section className="slide" id="aboutMe">
+
+const AboutMe = () => {
+    window.addEventListener('scroll', function () {
+        if (this.document.getElementById('aboutMe').clientHeight / 1.7 < this.window.scrollY) {
+            if (this.window.innerWidth < 768) {
+                this.document.getElementById("left").style.visibility = "visible";
+                this.document.getElementById("left").style.animation = "fadein3 1.5s"
+                this.document.getElementById("right").style.visibility = "visible";
+                this.document.getElementById("right").style.animation = "fadein3 1.5s"
+            } else {
+                this.document.getElementById("left").style.visibility = "visible";
+                this.document.getElementById("left").style.animation = "fadein2 1.5s"
+                this.document.getElementById("right").style.visibility = "visible";
+                this.document.getElementById("right").style.animation = "fadein2 1.5s"
+            }
+        }
+    })
+    return (
+        <section className="slide" id="aboutMe">
                 <div className="titleDiv">
                     <h3 id="titleSub"><span style={{ fontSize: "1rem" }}>AboutMe</span></h3>
                 </div>
@@ -34,8 +33,8 @@ export default class aboutMe extends Component {
                         <p><strong>코드 그 이상의 가치</strong>를 공유할 수 있는 개발자가 되어 선한 영향력을 끼치고 싶습니다.</p>
                     </div>
                 </div>
-                {/* <img src={"/MyGitPage/images/com.png"} width="300vw" height="200vh"></img> */}
             </section>
-        )
-    }
+    )
 }
+
+export default AboutMe
