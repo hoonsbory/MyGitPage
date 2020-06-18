@@ -13,10 +13,12 @@
     left: 50%;
     transform: translateX(-50%);
     border-radius: 10px;
-    width: 200px !important;
+    width: unset !important;
     padding: 0;
     margin: 0;
     list-style: none;
+    padding-left: 13px;
+    padding-right: 13px;
     background-color: darkgray;
     text-align: center;
     margin-bottom: 30px;
@@ -190,7 +192,6 @@
 @media(min-width : 1025px){
     .slick-dots {
         height: 37px !important;
-        width: 300px !important;
         li{
         width : 60px !important;
         height : 60px !important;
