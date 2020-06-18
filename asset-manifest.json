@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyGitPage/static/css/main.a21714eb.chunk.css",
+    "main.css": "/MyGitPage/static/css/main.09292d42.chunk.css",
     "main.js": "/MyGitPage/static/js/main.55e34d5d.chunk.js",
     "main.js.map": "/MyGitPage/static/js/main.55e34d5d.chunk.js.map",
     "runtime-main.js": "/MyGitPage/static/js/runtime-main.000fcba0.js",
@@ -9,10 +9,10 @@
     "static/js/2.ad82048c.chunk.js": "/MyGitPage/static/js/2.ad82048c.chunk.js",
     "static/js/2.ad82048c.chunk.js.map": "/MyGitPage/static/js/2.ad82048c.chunk.js.map",
     "index.html": "/MyGitPage/index.html",
-    "precache-manifest.d3225758ce1e8fb66a95ace70035ba35.js": "/MyGitPage/precache-manifest.d3225758ce1e8fb66a95ace70035ba35.js",
+    "precache-manifest.407dacc9d78bd8023fce9069d9305356.js": "/MyGitPage/precache-manifest.407dacc9d78bd8023fce9069d9305356.js",
     "service-worker.js": "/MyGitPage/service-worker.js",
     "static/css/2.98661524.chunk.css.map": "/MyGitPage/static/css/2.98661524.chunk.css.map",
-    "static/css/main.a21714eb.chunk.css.map": "/MyGitPage/static/css/main.a21714eb.chunk.css.map",
+    "static/css/main.09292d42.chunk.css.map": "/MyGitPage/static/css/main.09292d42.chunk.css.map",
     "static/js/2.ad82048c.chunk.js.LICENSE.txt": "/MyGitPage/static/js/2.ad82048c.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/MyGitPage/static/media/slick.f97e3bbf.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.000fcba0.js",
     "static/css/2.98661524.chunk.css",
     "static/js/2.ad82048c.chunk.js",
-    "static/css/main.a21714eb.chunk.css",
+    "static/css/main.09292d42.chunk.css",
     "static/js/main.55e34d5d.chunk.js"
   ]
 }
