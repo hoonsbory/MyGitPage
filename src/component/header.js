@@ -44,7 +44,7 @@ const Header = () => {
         <span className="tab-slider"></span>
       </div>
       <section className="mainSec">
-        <img alt="mypic" src="/MyGitPage/images/me3.png" id="mypic"></img>
+        <img alt="mypic" src="/MyGitPage/images/myFace.png" id="mypic"></img>
         <br></br>
         <h1 id="title">{text}</h1>
         <br></br>

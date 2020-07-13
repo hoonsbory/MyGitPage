@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Header from './component/Header';
-import AboutMe from './component/AboutMe'
-import Project from './component/Project'
-import Skills from './component/Skills'
-import Contact from './component/Contact';
+import Header from './component/header';
+import AboutMe from './component/aboutMe'
+import Project from './component/project'
+import Skills from './component/skills'
+import Contact from './component/contact';
 
 
 function App() {

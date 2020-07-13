@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Slider from "react-slick";
 import '../css/project.scss'
-import ProjectImg from "./ProjectImg"
+import ProjectImg from "./projectImg"
 
 const Project = () => {
 
