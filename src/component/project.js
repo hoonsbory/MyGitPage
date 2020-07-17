@@ -50,6 +50,7 @@ const Project = () => {
           <p style={{ marginBottom: "0" }}><strong>설명</strong> -서버에서 받은 공공데이터를 축적 및 가공하여 공적마스크의 평균 입고
           시간을 제공하며 거리순 입고순 정렬을 통해 편리한 재고 검색이 가능하게 했습니다. <br></br>
           힘든 시기에 조금이나마 도움이 되고 싶어 제작하게 되었습니다.</p>
+          <p>※ 7월 12일부로 공적마스크 제도가 종료되어 더 이상 api를 통해 데이터를 받아오지 않습니다.</p>
           <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/maskMap">
             <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
           </a><p id="betweenP" >&</p><a href="https://mask-pharm.shop">
