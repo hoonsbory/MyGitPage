@@ -40,9 +40,27 @@ const Project = () => {
     <ProjectImg project={project}></ProjectImg>
 
     <Slider {...settings} >
+    <div>
+        <img alt="listBtnImg" onClick={() => imageList("board")} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
+        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract01.jpg"}></img>
+        <div id="projectText"><p><strong>프로젝트명 </strong>- SPA 게시판</p><p><strong>제작기간 </strong>- 2020/07/01~</p>
+          <p><strong>사용기술 </strong>- <span>Express</span><span>React</span><span>AWS S3</span><span>Heroku</span><span>Mysql</span>
+            <span>Sequelize</span><span>Redux</span><span>Passport</span></p>
+          <p><strong>역할</strong>- 전체기획 및 개발</p>
+          <p style={{ marginBottom: "0" }}><strong>설명</strong> - 전체적인 기능이 담겨있는 SPA 게시판입니다. <br></br>
+          로그인, 좋아요, 댓글, 댓글 좋아요, 답글 등등 기본적인 기능을 모두 갖추었습니다.</p>
+          <p>특히 사진업로드 같은 경우 직접 커스텀해서 커서가 어떤 위치에 놓여도 완벽하게 대응하며, 불필요한 s3 요청이 없게 로직을 짰습니다.</p>
+          <p>코드블럭은 highlight.js를 통해 구현했고, 모바일은 무한스크롤, pc는 숫자로 페이징했습니다. 모바일의 무한스크롤은 react-virtualized를 통해서 속도를 높였습니다.</p>
+          <p>새로고침없이 react-hook을 통해 SPA의 속도를 즐길 수 있습니다. useCallback을 통해 함수의 불필요한 재생성을 막았습니다.</p>
+          <p>※ HEROKU는 해외서버이기 때문에 통신과정에서 약간의 딜레이가 있습니다.</p>
+          <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/myBoard">
+            <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
+          </a><p id="betweenP" >&</p><a href="https://hoonboard.herokuapp.com">
+            <img alt="siteImg" src={"/MyGitPage/images/board.png"}></img></a></div>
+      </div>
       <div>
         <img alt="listBtnImg" onClick={() => imageList("mask")} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
-        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract01.jpg"}></img>
+        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract02.jpg"}></img>
         <div id="projectText"><p><strong>프로젝트명 </strong>- 마스크팜(2인 프로젝트)</p><p><strong>제작기간 </strong>- 2020/03/01~2020/03/08</p>
           <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>Docker</span><span>Thymeleaf</span>
             <span>JPA</span><span>Nginx</span></p>
@@ -58,7 +76,7 @@ const Project = () => {
       </div>
       <div>
         <img alt="listBtnImg" onClick={() => imageList("personalColor")} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
-        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract02.jpg"} />
+        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract03.jpg"} />
         <div id="projectText"><p><strong>프로젝트명 </strong>- 퍼스널컬러 진단(2인 프로젝트)</p><p><strong>제작기간 </strong>- 2020/05/01~2020/06/01</p>
           <p><strong>사용기술 </strong>- <span>React</span><span>AWS S3</span><span>CloudFront</span><span>Travis CI</span></p>
           <p><strong>역할</strong>- 기획 및 전체개발</p>
@@ -70,7 +88,7 @@ const Project = () => {
       </div>
       <div>
         <img alt="listBtnImg" onClick={() => imageList("dayoff")} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
-        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract03.jpg"} />
+        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract04.jpg"} />
         <div id="projectText"><p><strong>프로젝트명 </strong>- DayOff(5인 프로젝트)</p><p><strong>제작기간 </strong>- 2019/12/01~2020/01/10</p>
           <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>React</span><span>SpringSecurity</span>
             <span>JPA</span><span>GCP(Storage,visionApi)</span><span>Nginx</span></p>
@@ -85,7 +103,7 @@ const Project = () => {
 
       <div>
         <img alt="listBtnImg" onClick={() => imageList("insta")} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
-        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract04.jpg"} />
+        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract05.jpg"} />
         <div id="projectText"><p><strong>프로젝트명 </strong>- 인스타그램 클론(5인 프로젝트)</p><p><strong>제작기간 </strong>- 2019/09/01~2019/09/09</p>
           <p><strong>사용기술 </strong>- <span>JSP</span><span>ORACLE DB</span><span>Tomcat</span><span>Servlet</span></p>
           <p><strong>역할</strong>- 게시글 등록, 본인페이지,타유저페이지, DB설계, 좋아요 팔로우 내역, 팔로우 및 팔로워 리스트, 사용자검색,로그인 CSS</p>

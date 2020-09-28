@@ -11,6 +11,8 @@ const Skills = () => {
 
                     <SkillList skillName="JAVA" star="3" skillImg="java.png" />
 
+                    <SkillList skillName="NODE EXPRESS" star="2" skillImg="node.png" />
+
                     <SkillList skillName="JPA" star="2" skillImg="jpa.png" />
 
                     <SkillList skillName="SpringBoot" star="3" skillImg="spring.png" />
@@ -24,7 +26,7 @@ const Skills = () => {
 
                     <SkillList skillName="html" star="3" skillImg="html5.png" />
 
-                    <SkillList skillName="React" star="2" skillImg="react.png" />
+                    <SkillList skillName="React" star="3" skillImg="react.png" />
 
                     <SkillList skillName="JavsScript" star="2" skillImg="js.png" />
 
