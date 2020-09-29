@@ -53,7 +53,7 @@ const Project = () => {
           <p>코드블럭은 highlight.js를 통해 구현했고, 모바일은 무한스크롤, pc는 숫자로 페이징했습니다. 모바일의 무한스크롤은 react-virtualized를 통해서 속도를 높였습니다.</p>
           <p>새로고침없이 react-hook을 통해 SPA의 속도를 즐길 수 있습니다. useCallback을 통해 함수의 불필요한 재생성을 막았습니다.</p>
           <p>※ HEROKU는 해외서버이기 때문에 통신과정에서 약간의 딜레이가 있습니다.</p>
-          <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/myBoard">
+          <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/hoonBoard">
             <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
           </a><p id="betweenP" >&</p><a href="https://hoonboard.herokuapp.com">
             <img alt="siteImg" src={"/MyGitPage/images/board.png"}></img></a></div>
