@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MyGitPage/static/css/main.fdddbeac.chunk.css",
-    "main.js": "/MyGitPage/static/js/main.3eb00fa5.chunk.js",
-    "main.js.map": "/MyGitPage/static/js/main.3eb00fa5.chunk.js.map",
+    "main.js": "/MyGitPage/static/js/main.763e2e5b.chunk.js",
+    "main.js.map": "/MyGitPage/static/js/main.763e2e5b.chunk.js.map",
     "runtime-main.js": "/MyGitPage/static/js/runtime-main.000fcba0.js",
     "runtime-main.js.map": "/MyGitPage/static/js/runtime-main.000fcba0.js.map",
     "static/css/2.98661524.chunk.css": "/MyGitPage/static/css/2.98661524.chunk.css",
     "static/js/2.ad82048c.chunk.js": "/MyGitPage/static/js/2.ad82048c.chunk.js",
     "static/js/2.ad82048c.chunk.js.map": "/MyGitPage/static/js/2.ad82048c.chunk.js.map",
     "index.html": "/MyGitPage/index.html",
-    "precache-manifest.34f18f5589cdc8835dc9509e1f22e7e1.js": "/MyGitPage/precache-manifest.34f18f5589cdc8835dc9509e1f22e7e1.js",
+    "precache-manifest.2e2d3e3134187ca0db7a9fb98a8a4cf0.js": "/MyGitPage/precache-manifest.2e2d3e3134187ca0db7a9fb98a8a4cf0.js",
     "service-worker.js": "/MyGitPage/service-worker.js",
     "static/css/2.98661524.chunk.css.map": "/MyGitPage/static/css/2.98661524.chunk.css.map",
     "static/css/main.fdddbeac.chunk.css.map": "/MyGitPage/static/css/main.fdddbeac.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.98661524.chunk.css",
     "static/js/2.ad82048c.chunk.js",
     "static/css/main.fdddbeac.chunk.css",
-    "static/js/main.3eb00fa5.chunk.js"
+    "static/js/main.763e2e5b.chunk.js"
   ]
 }
