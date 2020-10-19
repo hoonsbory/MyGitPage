@@ -47,7 +47,7 @@ const Skills = () => {
 
                     <SkillList skillName="AWS" star="2" skillImg="aws.png" />
 
-                    <SkillList skillName="GCP" star="2" skillImg="gcp.png" />
+                    <SkillList skillName="GCP" star="1" skillImg="gcp.png" />
                 </div>
             </section>
     )
