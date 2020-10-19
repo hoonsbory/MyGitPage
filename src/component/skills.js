@@ -39,7 +39,7 @@ const Skills = () => {
 
                     <SkillList skillName="Travis CI" star="2" skillImg="travis.png" />
 
-                    <SkillList skillName="Docker" star="2" skillImg="docker.png" />
+                    <SkillList skillName="Docker" star="1" skillImg="docker.png" />
 
                     <SkillList skillName="Github" star="3" skillImg="github.png" />
 
