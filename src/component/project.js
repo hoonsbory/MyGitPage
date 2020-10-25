@@ -63,12 +63,15 @@ const Project = () => {
         <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract02.jpg"}></img>
         <div id="projectText"><p><strong>프로젝트명 </strong>- 마스크팜(2인 프로젝트)</p>
           <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>Docker</span><span>Thymeleaf</span>
-            <span>JPA</span><span>Nginx</span></p>
+            <span>JPA</span><span>Nginx</span><span>Travis CI</span></p>
           <p><strong>역할</strong>- 전체기획 및 개발</p>
           <p style={{ marginBottom: "0" }}><strong>설명</strong> -서버에서 받은 공공데이터를 축적 및 가공하여 공적마스크의 평균 입고
-          시간을 제공하며 거리순 입고순 정렬을 통해 편리한 재고 검색이 가능하게 했습니다. <br></br>
+          시간을 제공하며 거리순 입고순 정렬을 통해 편리한 재고 검색이 가능하게 했습니다. </p><br></br>
+          <p>Nginx를 통해 도커 컨테이너 2개를 로드밸런싱해주었습니다.</p>
+          <p>Travis CI를 통해 빌드 후 s3에 업로드하고, aws code deploy를 통해 ec2에 배포하는 파이프라인을 구축했습니다.</p>
+          <p>사용자가 끊김없이 이용할 수 있게 배포 시 쉘스크립트를 통해 컨테이너를 하나씩 재실행시켰습니다.</p>
           <p>crontab을 이용하여 매일 새벽 data를 수집하여 평균 입고 시간을 계산 후 DB에 insert해주어 더 편하게 입고시간을 알 수 있습니다.</p>
-          힘든 시기에 조금이나마 도움이 되고 싶어 제작하게 되었습니다.</p>
+          <br></br>
           <p>※ 7월 12일부로 공적마스크 제도가 종료되어 더 이상 api를 통해 데이터를 받아오지 않습니다.</p>
           <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/maskMap">
             <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
