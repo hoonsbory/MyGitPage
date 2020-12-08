@@ -82,7 +82,7 @@ const Project = () => {
         <img alt="listBtnImg" onClick={() => imageList("personalColor")} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
         <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract03.jpg"} />
         <div id="projectText"><p><strong>프로젝트명 </strong>- 퍼스널컬러 진단(2인 프로젝트)</p>
-          <p><strong>사용기술 </strong>- <span>React</span><span>AWS S3</span><span>CloudFront</span><span>Travis CI</span></p>
+          <p><strong>사용기술 </strong>- <span>React</span><span>AWS S3</span><span>CloudFront</span><span>Jenkins</span></p>
           <p><strong>역할</strong>- 기획 및 전체개발</p>
           <p style={{ marginBottom: "0" }}><strong>설명</strong> -비디오태그의 스트림을 이용해 유저의 피부를 캡쳐 및 분석하여 퍼스널컬러를 알려주는 웹사이트입니다. <br/> 스트림을 지원하지 않는 브라우저는 input으로 사진을 업로드 하게 하였고 피부를 정확히 특정하기 위해 캔버스를 이용하여 크롭툴을 만들었습니다.</p>
           <p>SEO최적화를 위해 react-snap을 사용하여 html을 분리했습니다.</p>
