@@ -16,12 +16,13 @@ const ProjectImg = ({project,length}) =>  {
             slidesToShow: 1,
             slidesToScroll: 1
         };
-        var map = length.map((x,idx)=> <div><img alt="projectImg" className="projectImg" src={`/MyGitPage/images/${project}0${idx+1}.jpg`} /></div>)
+        // var map = length.map((x,idx)=> <div><img alt="projectImg" className="projectImg" src={`/MyGitPage/images/${project}0${idx+1}.jpg`} /></div>)
         
     return (
         <div id="projectImg">
                 <Slider {...settings}>
-                    {map}
+                    {length.map((x,idx)=> <div><img alt="projectImg" className="projectImg" src={`/MyGitPage/images/${project}0${idx+1}.jpg`} /></div>)}
+                    
                     {/* <div>
                         <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + project + "01.jpg"} />
                     </div>
