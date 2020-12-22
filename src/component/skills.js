@@ -9,13 +9,13 @@ const Skills = () => {
                     <h1>Skills</h1>
                     <h3 id="skillSub"><span>Back-end</span></h3>
 
-                    <SkillList skillName="JAVA" star="3" skillImg="java.png" />
+                    <SkillList skillName="JAVA" star="2" skillImg="java.png" />
 
                     <SkillList skillName="NODE EXPRESS" star="2" skillImg="node.png" />
 
                     <SkillList skillName="JPA" star="2" skillImg="jpa.png" />
 
-                    <SkillList skillName="SpringBoot" star="3" skillImg="spring.png" />
+                    <SkillList skillName="SpringBoot" star="2" skillImg="spring.png" />
 
                     <SkillList skillName="Nginx" star="2" skillImg="nginx.png" />
                 </div>
@@ -28,9 +28,15 @@ const Skills = () => {
 
                     <SkillList skillName="React" star="3" skillImg="react.png" />
 
-                    <SkillList skillName="JavsScript" star="2" skillImg="js.png" />
+                    <SkillList skillName="JavsScript" star="3" skillImg="js.png" />
 
-                    <SkillList skillName="JQuery" star="2" skillImg="jquery.png" />
+                    <SkillList skillName="TypeScript" star="2" skillImg="ts.png" />
+
+                    <SkillList skillName="Styled-Component" star="2" skillImg="styled.png" />
+
+                    <SkillList skillName="Redux" star="2" skillImg="redux.png" />
+
+                    <SkillList skillName="JQuery" star="1" skillImg="jquery.png" />
                 </div>
                 <div className="skillDiv">
                     <h3 id="skillSub"><span>ETC(DB,Tool...)</span></h3>
