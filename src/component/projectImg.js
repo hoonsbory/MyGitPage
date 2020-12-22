@@ -17,7 +17,6 @@ const ProjectImg = ({project,length}) =>  {
             slidesToShow: 1,
             slidesToScroll: 1
         };
-        console.log(map)
         
     return (
         <div id="projectImg">
