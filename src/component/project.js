@@ -10,8 +10,8 @@ const Project = () => {
 
   const imageList = (projectName,leng) => {
     setProject(projectName)
-    var arr = new Array(leng)
-    arr[leng-1] = 0;
+    var arr = new Array(leng-1)
+    arr[leng-2] = 0;
     setLength([...arr])
     setTimeout(() => {
       document.getElementById("projectImg").style.display = "block";
