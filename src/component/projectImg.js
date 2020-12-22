@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import React from 'react'
 
 const ProjectImg = ({project,length}) =>  {
-        var map = length.map((x,idx)=> <div><img alt="projectImg" className="projectImg" src={`/MyGitPage/images/${project}0${idx+2}.jpg`} /></div>)
+        var map = length.map((x,idx)=> <div><img alt="projectImg" className="projectImg" src={`/MyGitPage/images/${project}0${idx+1}.jpg`} /></div>)
         const settings = {
 
             customPaging: function (i) {
@@ -17,14 +17,13 @@ const ProjectImg = ({project,length}) =>  {
             slidesToShow: 1,
             slidesToScroll: 1
         };
+        console.log(map)
         
     return (
         <div id="projectImg">
                 <Slider {...settings}>
-                    <div>
-                        <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + project + "01.jpg"} />
-                    </div>   
                     {map}    
+                                    
                     {/* <div>
                         <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/" + project + "01.jpg"} />
                     </div>
