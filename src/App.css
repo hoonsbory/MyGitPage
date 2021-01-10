@@ -27,7 +27,16 @@
 .App-link {
   color: #61dafb;
 }
-
+*{
+  font-family: 'Noto Sans';
+}
+@font-face { 
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Noto Sans'),
+  url("https://jaehoon-bucket.s3.ap-northeast-2.amazonaws.com/NotoSansCJKkr-DemiLight.woff") format('woff')
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
