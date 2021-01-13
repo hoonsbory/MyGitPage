@@ -45,7 +45,7 @@ const Project = () => {
 
       <Slider {...settings} style={{ fontSize: "15px" }} >
       <div>
-          <img alt="listBtnImg" onClick={() => imageList("lotto",3)} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
+          <img alt="listBtnImg" onClick={() => imageList("lotto",4)} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
           <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract01.jpg"}></img>
           <div id="projectText"><p><strong>프로젝트명 </strong>- 로또맛집(가상로또 및 통계)</p>
             <p><strong>사용기술 </strong>- <span>React</span><span>Redux</span><span>TypeScript</span><span>Styled-Component</span><span>Graphql</span>
@@ -56,6 +56,7 @@ const Project = () => {
             <p>서버는 Graphql-yoga에 내장되어 있는 Express를 사용했습니다. MongoDB의 Schema를 Graphql에 정의하여  함께 사용했습니다.</p>
             <p>실제 로또 데이터 수집은 node-cron과 cheerio를 활용하여 크롤링했고, 수집한 데이터는 ChartJS를 커스텀하여 시각화했습니다. </p>
             모바일 친화적으로 설계했으며 리스트가 있는 섹션은 스크롤 페이징 처리했습니다. 
+            <p>웹뷰앱으로 출시했으며, 별도로 QR코드 스캔 기능을 추가했습니다.</p>
             </p>
             <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/lotto-ts-react">
               <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>(Front) /
