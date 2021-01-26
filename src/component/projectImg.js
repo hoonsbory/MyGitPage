@@ -21,8 +21,8 @@ const ProjectImg = ({ project, length }) => {
     useEffect(() => {
         if (!project) return
         length.forEach((i,idx)=>{
-            document.getElementById("projectImg"+idx).src = `/MygitPage/images/loading.svg`
-            document.getElementById("projectDockImg"+idx).src = `/MygitPage/images/loading.svg`
+            document.getElementById("projectImg"+idx).src = `https://hoonsbory.github.io/MygitPage/images/loading.svg`
+            document.getElementById("projectDockImg"+idx).src = `https://hoonsbory.github.io/MygitPage/images/loading.svg`
             var img = new Image();
             img.onload = function () {
                 document.getElementById("projectImg"+idx).src = img.src
