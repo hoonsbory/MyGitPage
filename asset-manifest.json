@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MyGitPage/static/css/main.2143f7d0.chunk.css",
-    "main.js": "/MyGitPage/static/js/main.efc57129.chunk.js",
-    "main.js.map": "/MyGitPage/static/js/main.efc57129.chunk.js.map",
+    "main.css": "/MyGitPage/static/css/main.db2bd22d.chunk.css",
+    "main.js": "/MyGitPage/static/js/main.3e6f5bc5.chunk.js",
+    "main.js.map": "/MyGitPage/static/js/main.3e6f5bc5.chunk.js.map",
     "runtime-main.js": "/MyGitPage/static/js/runtime-main.000fcba0.js",
     "runtime-main.js.map": "/MyGitPage/static/js/runtime-main.000fcba0.js.map",
     "static/css/2.98661524.chunk.css": "/MyGitPage/static/css/2.98661524.chunk.css",
     "static/js/2.ad82048c.chunk.js": "/MyGitPage/static/js/2.ad82048c.chunk.js",
     "static/js/2.ad82048c.chunk.js.map": "/MyGitPage/static/js/2.ad82048c.chunk.js.map",
     "index.html": "/MyGitPage/index.html",
-    "precache-manifest.dfa16356aa4550715eff9056675b9cbc.js": "/MyGitPage/precache-manifest.dfa16356aa4550715eff9056675b9cbc.js",
+    "precache-manifest.14d7a814cd5a735ef4419f8645ddf21c.js": "/MyGitPage/precache-manifest.14d7a814cd5a735ef4419f8645ddf21c.js",
     "service-worker.js": "/MyGitPage/service-worker.js",
     "static/css/2.98661524.chunk.css.map": "/MyGitPage/static/css/2.98661524.chunk.css.map",
-    "static/css/main.2143f7d0.chunk.css.map": "/MyGitPage/static/css/main.2143f7d0.chunk.css.map",
+    "static/css/main.db2bd22d.chunk.css.map": "/MyGitPage/static/css/main.db2bd22d.chunk.css.map",
     "static/js/2.ad82048c.chunk.js.LICENSE.txt": "/MyGitPage/static/js/2.ad82048c.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/MyGitPage/static/media/slick.f97e3bbf.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.000fcba0.js",
     "static/css/2.98661524.chunk.css",
     "static/js/2.ad82048c.chunk.js",
-    "static/css/main.2143f7d0.chunk.css",
-    "static/js/main.efc57129.chunk.js"
+    "static/css/main.db2bd22d.chunk.css",
+    "static/js/main.3e6f5bc5.chunk.js"
   ]
 }
