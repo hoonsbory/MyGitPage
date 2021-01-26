@@ -5,10 +5,9 @@ import React from 'react'
 
 const Contact = () => {
     window.addEventListener('scroll', function () {
-        if (document.getElementById("aboutMe").scrollHeight + document.getElementById("project").scrollHeight + document.getElementById("skills").scrollHeight + 200 < this.window.scrollY) {
-            document.getElementsByClassName("contact-form")[0].style.visibility = "visible";
-            document.getElementsByClassName("contact-form")[0].style.animation = "fadein3 1.5s"
-
+        if (document.getElementById("aboutMe").scrollHeight + document.getElementById("project").scrollHeight + document.getElementById("skills").scrollHeight + 200 < window.scrollY) {
+            document.getElementById("contact").style.marginTop = 0
+            document.getElementById("contact").style.opacity = 1
         }
     })
     const sendEmail = (e) => {
@@ -39,7 +38,7 @@ const Contact = () => {
     }
     return (
         <div>
-            <section className="slide" id="contact" style={{ marginBottom: '70px' }}>
+            <section className="slide" id="contact" style={{ marginBottom: '70px'}}>
                 <div className="titleDiv">
                     <h3 id="titleSub"><span style={{ fontSize: "1rem" }}>Contact</span></h3>
                 </div>

@@ -6,7 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.slide{
+  opacity: 0;
+  margin-top: 60px;
+  transition: all ease-out .5s;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

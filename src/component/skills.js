@@ -3,6 +3,12 @@ import SkillList from './SkillList';
 import React from 'react'
 
 const Skills = () => {
+    window.addEventListener('scroll', function () {
+        if (document.getElementById("aboutMe").scrollHeight + document.getElementById("project").scrollHeight + 200 < window.scrollY) {
+            document.getElementById("skills").style.marginTop = 0
+            document.getElementById("skills").style.opacity = 1
+        }
+    })
     return (
         <section className="slide" id="skills">
                 <div className="skillDiv">

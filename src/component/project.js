@@ -4,7 +4,12 @@ import '../css/project.scss'
 import ProjectImg from "./projectImg"
 
 const Project = () => {
-
+  window.addEventListener('scroll', function () {
+    if (document.getElementById("aboutMe").scrollHeight + 200 < window.scrollY) {
+        document.getElementById("project").style.marginTop = 0
+        document.getElementById("project").style.opacity = 1
+    }
+})
   const [project, setProject] = useState("")
   const [length, setLength] = useState([])
 

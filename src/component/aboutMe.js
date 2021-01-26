@@ -3,18 +3,9 @@ import '../css/aboutMe.scss';
 
 const AboutMe = () => {
     window.addEventListener('scroll', function () {
-        if (this.document.getElementById('aboutMe').clientHeight / 1.7 < this.window.scrollY) {
-            if (this.window.innerWidth < 768) {
-                this.document.getElementById("left").style.visibility = "visible";
-                this.document.getElementById("left").style.animation = "fadein3 1.5s"
-                this.document.getElementById("right").style.visibility = "visible";
-                this.document.getElementById("right").style.animation = "fadein3 1.5s"
-            } else {
-                this.document.getElementById("left").style.visibility = "visible";
-                this.document.getElementById("left").style.animation = "fadein2 1.5s"
-                this.document.getElementById("right").style.visibility = "visible";
-                this.document.getElementById("right").style.animation = "fadein2 1.5s"
-            }
+        if (document.getElementById('aboutMe').clientHeight / 1.7 < window.scrollY) {
+            document.getElementById("aboutMe").style.marginTop = "0"
+            document.getElementById("aboutMe").style.opacity= 1
         }
     })
     return (
