@@ -20,19 +20,10 @@ const ProjectImg = ({ project, length }) => {
     };
     useEffect(() => {
         if (!project) return
-        // length.forEach((i,idx)=>{
-        //     var newImg = new Image()
-        //     newImg.onload(()=>{
-        //         var image = document.getElementById(`projectImg${idx}`)
-        //         image.src = newImg.src
-        //     })
-        //     newImg.src = `https://hoonsbory.github.io/MyGitPage/images/${project}0${idx+1}.jpg`
-        //     // var image2 = document.getElementById(`projectDockImg${idx}`)
-        //     // image2.src = `https://hoonsbory.github.io/MyGitPage/images/${project}0${idx+1}.jpg`
-        // })
         length.forEach((i,idx)=>{
+            document.getElementById("projectImg"+idx).src = `/MygitPage/images/loading.svg`
+            document.getElementById("projectDockImg"+idx).src = `/MygitPage/images/loading.svg`
             var img = new Image();
-    
             img.onload = function () {
                 document.getElementById("projectImg"+idx).src = img.src
                 document.getElementById("projectDockImg"+idx).src = img.src
