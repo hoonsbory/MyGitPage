@@ -43,8 +43,8 @@ const Header = () => {
         <a href="#!" className="tab" onClick={() => document.getElementById("contact").scrollIntoView()}>Contact</a>
         <span className="tab-slider"></span>
       </div>
-      <section className="mainSec">
-        <img alt="mypic" src="/MyGitPage/images/myFace.png" id="mypic"></img>
+      <section className="mainSec" style={{background : `url(${process.env.PUBLIC_URL}/images/main.png)`}}>
+        <img alt="mypic" src={`${process.env.PUBLIC_URL}/images/myFace.png`} id="mypic"></img>
         <br></br>
         <h1 id="title">{text}</h1>
         <br></br>

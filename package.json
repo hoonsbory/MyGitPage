@@ -8,14 +8,17 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "beauty-stars": "^1.1.0",
+    "core-js": "^3.10.1",
+    "cross-env": "^7.0.2",
     "emailjs-com": "^2.4.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-app-polyfill": "^2.0.0",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-slick": "^0.25.2",
-    "slick-carousel": "^1.8.1",
-    "cross-env": "^7.0.2"
+    "regenerator-runtime": "^0.13.7",
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,7 +40,9 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "ie 11",
+      "ie 9"
     ]
   },
   "devDependencies": {

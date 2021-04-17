@@ -8,6 +8,7 @@ const AboutMe = () => {
             document.getElementById("aboutMe").style.opacity= 1
         }
     })
+    console.log(process.env.PUBLIC_URL)
     return (
         <section className="slide" id="aboutMe">
                 <div className="titleDiv">

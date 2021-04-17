@@ -50,31 +50,31 @@ const Project = () => {
 
       <Slider {...settings} style={{ fontSize: "15px" }} >
       <div>
-          <img alt="listBtnImg" onClick={() => imageList("lotto",4)} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
-          <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract01.jpg"}></img>
+          <img alt="listBtnImg" onClick={() => imageList("lotto",4)} src={`${process.env.PUBLIC_URL}/images/interface.png`} className="imgList"></img>
+          <img alt="projectImg" className="projectImg" src={`${process.env.PUBLIC_URL}/images/abstract01.jpg`}></img>
           <div id="projectText"><p><strong>프로젝트명 </strong>- 로또맛집(가상로또 및 통계)</p>
             <p><strong>사용기술 </strong>- <span>React</span><span>Redux</span><span>TypeScript</span><span>Styled-Component</span><span>Graphql</span>
             <span>MongoDB</span><span>Express</span><span>Heroku</span></p>
             <p><strong>역할</strong>- 전체기획 및 개발</p>
-            <p style={{ marginBottom: "0" }}><strong>설명</strong> - 가상로또 추첨과 로또 데이터를 가공한 그래프를 제공하는 웹사이트입니다.
+            <div style={{ marginBottom: "0" }}><strong>설명</strong> - 가상로또 추첨과 로또 데이터를 가공한 그래프를 제공하는 웹사이트입니다.
             <p>State관리는 Redux로 했으며, 재활용성이 높은 컴포넌트 등은 styled component로 커스텀하여 확장성을 높였습니다. </p>
             <p>서버는 Graphql-yoga에 내장되어 있는 Express를 사용했습니다. MongoDB의 Schema를 Graphql에 정의하여  함께 사용했습니다.</p>
             <p>실제 로또 데이터 수집은 node-cron과 cheerio를 활용하여 크롤링했고, 수집한 데이터는 ChartJS를 커스텀하여 시각화했습니다. </p>
             모바일 친화적으로 설계했으며 리스트가 있는 섹션은 스크롤 페이징 처리했습니다. 
             <p>웹뷰앱으로 출시했으며, 별도로 QR코드 스캔 기능을 추가했습니다.</p>
-            </p>
+            </div>
             <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/lotto-ts-react">
-              <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>(Front) /
+              <img alt="githubImg" src={`${process.env.PUBLIC_URL}/images/github.png`}></img>(Front) /
             </a>
             <a href="https://github.com/hoonsbory/lotto-server-public">
-              <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>(Back)
+              <img alt="githubImg" src={`${process.env.PUBLIC_URL}/images/github.png`}></img>(Back)
             </a>
             <p id="betweenP" >&</p><a href="https://lottozip.site">
-            <img alt="siteImg" src={"/MyGitPage/images/lottoIcon.svg"}></img></a></div>
+            <img alt="siteImg" src={`${process.env.PUBLIC_URL}/images/lottoIcon.svg`}></img></a></div>
         </div>
         <div>
-          <img alt="listBtnImg" onClick={() => imageList("board",5)} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
-          <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract02.jpg"}></img>
+          <img alt="listBtnImg" onClick={() => imageList("board",5)} src={`${process.env.PUBLIC_URL}/images/interface.png`} className="imgList"></img>
+          <img alt="projectImg" className="projectImg" src={`${process.env.PUBLIC_URL}/images/abstract02.jpg`}></img>
           <div id="projectText"><p><strong>프로젝트명 </strong>- SPA 게시판</p>
             <p><strong>사용기술 </strong>- <span>Express</span><span>React</span><span>AWS S3</span><span>AWS EC2</span><span>Nginx</span><span>Mysql</span>
               <span>Sequelize</span><span>Redux</span><span>Passport</span></p>
@@ -86,14 +86,14 @@ const Project = () => {
             <p>SEO 최적화를 위해 REACT HELMET을 사용했고 게시글 페이지만 서버에서 메타태그를 변경하게 했습니다.</p>
             <p>Nginx를 통해 로드밸런싱을 구현했고, http 요청은 https로 Redirect 시켰습니다.</p>
             <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/hoonBoard">
-              <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
+              <img alt="githubImg" src={`${process.env.PUBLIC_URL}/images/github.png`}></img>
             </a><p id="betweenP" >&</p><a href="https://hoondevnote.ml">
-              <img alt="siteImg" src={"/MyGitPage/images/board.png"}></img></a></div>
+              <img alt="siteImg" src={`${process.env.PUBLIC_URL}/images/board.png`}></img></a></div>
         </div>
         
         <div>
-          <img alt="listBtnImg" onClick={() => imageList("mask",3)} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
-          <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract03.jpg"}></img>
+          <img alt="listBtnImg" onClick={() => imageList("mask",3)} src={`${process.env.PUBLIC_URL}/images/interface.png`} className="imgList"></img>
+          <img alt="projectImg" className="projectImg" src={`${process.env.PUBLIC_URL}/images/abstract03.jpg`}></img>
           <div id="projectText"><p><strong>프로젝트명 </strong>- 마스크팜(2인 프로젝트)</p>
             <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>Docker</span><span>Thymeleaf</span>
               <span>JPA</span><span>Nginx</span><span>Travis CI</span><span>JQuery</span></p>
@@ -107,26 +107,26 @@ const Project = () => {
             <br></br>
             <p>※ 7월 12일부로 공적마스크 제도가 종료되어 더 이상 api를 통해 데이터를 받아오지 않습니다.</p>
             <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/maskMap">
-              <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
+              <img alt="githubImg" src={`${process.env.PUBLIC_URL}/images/github.png`}></img>
             </a><p id="betweenP" >&</p><a href="https://mask-pharm.shop">
-              <img alt="siteImg" src={"/MyGitPage/images/favicon.png"}></img></a></div>
+              <img alt="siteImg" src={`${process.env.PUBLIC_URL}/images/favicon.png`}></img></a></div>
         </div> 
         <div>
-          <img alt="listBtnImg" onClick={() => imageList("personalColor",3)} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
-          <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract04.jpg"} />
+          <img alt="listBtnImg" onClick={() => imageList("personalColor",3)} src={`${process.env.PUBLIC_URL}/images/interface.png`} className="imgList"></img>
+          <img alt="projectImg" className="projectImg" src={`${process.env.PUBLIC_URL}/images/abstract04.jpg`} />
           <div id="projectText"><p><strong>프로젝트명 </strong>- 퍼스널컬러 진단(2인 프로젝트)</p>
             <p><strong>사용기술 </strong>- <span>React</span><span>AWS S3</span><span>CloudFront</span><span>Jenkins</span><span>JQuery</span></p>
             <p><strong>역할</strong>- 기획 및 전체개발</p>
             <p style={{ marginBottom: "0" }}><strong>설명</strong> -비디오태그의 스트림을 이용해 유저의 피부를 캡쳐 및 분석하여 퍼스널컬러를 알려주는 웹사이트입니다. <br /> 스트림을 지원하지 않는 브라우저는 input으로 사진을 업로드 하게 하였고 피부를 정확히 특정하기 위해 캔버스를 이용하여 크롭툴을 만들었습니다.</p>
             <p>SEO최적화를 위해 react-snap을 사용하여 html을 분리했습니다.</p>
             <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/simkong">
-              <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
+              <img alt="githubImg" src={`${process.env.PUBLIC_URL}/images/github.png`}></img>
             </a><p id="betweenP" >&</p><a href="https://mycolor.kr">
-              <img alt="siteImg" src={"/MyGitPage/images/mycolor.png"}></img></a></div>
+              <img alt="siteImg" src={`${process.env.PUBLIC_URL}/images/mycolor.png`}></img></a></div>
         </div>
         <div>
-          <img alt="listBtnImg" onClick={() => imageList("dayoff",3)} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
-          <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract05.jpg"} />
+          <img alt="listBtnImg" onClick={() => imageList("dayoff",3)} src={`${process.env.PUBLIC_URL}/images/interface.png`} className="imgList"></img>
+          <img alt="projectImg" className="projectImg" src={`${process.env.PUBLIC_URL}/images/abstract05.jpg`} />
           <div id="projectText"><p><strong>프로젝트명 </strong>- DayOff(5인 프로젝트)</p>
             <p><strong>사용기술 </strong>- <span>SpringBoot</span><span>MySql</span><span>AWS</span><span>React</span><span>SpringSecurity</span>
               <span>JPA</span><span>GCP(Storage,visionApi)</span><span>Nginx</span></p>
@@ -134,21 +134,21 @@ const Project = () => {
             <p style={{ marginBottom: "0" }}><strong>설명</strong> -여성의류 쇼핑몰로 최대한 많은 부분을 구현하려 했고, 차별화를 주기 위하여 인공지능 상품검색 기능을 추가하였습니다.
           </p>
             <p style={{ display: "inline" }}><strong>깃허브 & 웹사이트</strong> -</p><a href="https://github.com/hoonsbory/dayoffProject">
-              <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
+              <img alt="githubImg" src={`${process.env.PUBLIC_URL}/images/github.png`}></img>
             </a><p id="betweenP" >&</p><a href="https://jaehoon-dayoff.ml">
-              <img alt="siteImg" src={"/MyGitPage/images/dayoff.png"}></img></a></div>
+              <img alt="siteImg" src={`${process.env.PUBLIC_URL}/images/dayoff.png`}></img></a></div>
         </div>
 
         <div>
-          <img alt="listBtnImg" onClick={() => imageList("insta",3)} src={"/MyGitPage/images/interface.png"} className="imgList"></img>
-          <img alt="projectImg" className="projectImg" src={"/MyGitPage/images/abstract06.jpg"} />
+          <img alt="listBtnImg" onClick={() => imageList("insta",3)} src={`${process.env.PUBLIC_URL}/images/interface.png`} className="imgList"></img>
+          <img alt="projectImg" className="projectImg" src={`${process.env.PUBLIC_URL}/images/abstract06.jpg`} />
           <div id="projectText"><p><strong>프로젝트명 </strong>- 인스타그램 클론(5인 프로젝트)</p>
             <p><strong>사용기술 </strong>- <span>JSP</span><span>ORACLE DB</span><span>Tomcat</span><span>Servlet</span></p>
             <p><strong>역할</strong>- 게시글 등록, 본인페이지,타유저페이지, DB설계, 좋아요 팔로우 내역, 팔로우 및 팔로워 리스트, 사용자검색,로그인 CSS</p>
             <p style={{ marginBottom: "0" }}><strong>설명</strong> -학원에서 처음 JDBC와 JSP,AJAX를 배웠을 당시 진행한 미니 프로젝트로 인스타그램을 클론했습니다.
           </p>
             <p style={{ display: "inline" }}><strong>깃허브 </strong> -</p><a href="https://github.com/hoonsbory/instaProject">
-              <img alt="githubImg" src={"/MyGitPage/images/github.png"}></img>
+              <img alt="githubImg" src={`${process.env.PUBLIC_URL}/images/github.png`}></img>
             </a></div>
         </div>
       </Slider>

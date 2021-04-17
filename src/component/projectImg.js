@@ -3,12 +3,12 @@ import React, { useEffect } from 'react'
 
 const ProjectImg = ({ project, length }) => {
     // var map = length.map((x,idx)=> <div><img alt="projectImg" id={"projectImg"+idx} className="projectImg" src={`https://hoonsbory.github.io/MyGitPage/images/${project}0${idx+1}.jpg`} /></div>)
-    var map = length.map((x, idx) => <div><img alt="projectImg" className={"projectImg" + idx + " projectImg"} src={`/MyGitPage/images/loading.svg`} /></div>)
+    var map = length.map((x, idx) => <div><img alt="projectImg" className={"projectImg" + idx + " projectImg"} src={`${process.env.PUBLIC_URL}/images/loading.svg`} /></div>)
     const settings = {
 
         customPaging: function (i) {
             return (
-                <img alt="previewImg" className={"projectDockImg" + i} src={`/MyGitPage/images/loading.svg`} width="40px" height="40px" />
+                <img alt="previewImg" className={"projectDockImg" + i} src={`${process.env.PUBLIC_URL}/images/loading.svg`} width="40px" height="40px" />
             );
         },
         dots: true,
@@ -23,26 +23,26 @@ const ProjectImg = ({ project, length }) => {
         //
         length.forEach((i,idx)=>{
             [...document.getElementsByClassName("projectImg"+idx)].forEach(x=>{
-                x.src = `/MyGitPage/images/loading.svg`
+                x.src = `${process.env.PUBLIC_URL}/images/loading.svg`
                 var img = new Image();
                 img.onload = function () {
                     x.src = img.src
                 };
-                img.src = `/MyGitPage/images/${project}0${idx+1}.jpg`
+                img.src = `${process.env.PUBLIC_URL}/images/${project}0${idx+1}.jpg`
             });
 
             [...document.getElementsByClassName("projectDockImg"+idx)].forEach(x=>{
-                x.src = `/MyGitPage/images/loading.svg`
+                x.src = `${process.env.PUBLIC_URL}/images/loading.svg`
                 var img = new Image();
                 img.onload = function () {
                     x.src = img.src
                 };
-                img.src = `/MyGitPage/images/${project}0${idx+1}.jpg`
+                img.src = `${process.env.PUBLIC_URL}/images/${project}0${idx+1}.jpg`
             })
 
             })
     }, [project])
-
+ 
     return (
         <div id="projectImg">
             <Slider {...settings}>
