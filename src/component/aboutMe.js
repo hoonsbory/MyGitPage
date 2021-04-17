@@ -15,7 +15,7 @@ const AboutMe = () => {
                     <h3 id="titleSub"><span style={{ fontSize: "1rem" }}>AboutMe</span></h3>
                 </div>
                 <div id="left">
-                    <div id="aboutmeCom"><p id="firstp">함께할 때 더 빛나는</p> <p>같이의 가치를 아는 개발자</p></div>
+                    <div id="aboutmeCom" style={{backgroundImage : `${process.env.PUBLIC_URL}/images/com.png`}}><p id="firstp">함께할 때 더 빛나는</p> <p>같이의 가치를 아는 개발자</p></div>
                 </div>
                 <div id="right">
                     <div id="aboutmeText"><div id="subTitle"><h3>FullStack Developer</h3></div>
