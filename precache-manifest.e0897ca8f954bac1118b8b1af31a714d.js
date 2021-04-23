@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b3dff59985e51be17e527e28e0ccc83",
+    "revision": "032800f8f015108858a44cc47e3d6d19",
     "url": "https://cdn.jsdelivr.net/gh/hoonsbory/MyGitPage@gh-pages/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/hoonsbory/MyGitPage@gh-pages/static/css/2.e901dec3.chunk.css"
   },
   {
-    "revision": "1f691c6f9db5bc0a8d52",
+    "revision": "44e1cb75b901252a1973",
     "url": "https://cdn.jsdelivr.net/gh/hoonsbory/MyGitPage@gh-pages/static/css/main.f6ad31c1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://cdn.jsdelivr.net/gh/hoonsbory/MyGitPage@gh-pages/static/js/2.d9514fcb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f691c6f9db5bc0a8d52",
-    "url": "https://cdn.jsdelivr.net/gh/hoonsbory/MyGitPage@gh-pages/static/js/main.bde3ac4c.chunk.js"
+    "revision": "44e1cb75b901252a1973",
+    "url": "https://cdn.jsdelivr.net/gh/hoonsbory/MyGitPage@gh-pages/static/js/main.c8b8c4b2.chunk.js"
   },
   {
     "revision": "8281ea8c30628ba86f7c",
